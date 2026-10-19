@@ -76,6 +76,9 @@ jobs:
           cd .publish && git init -q -b data && git add -A
           git -c user.name=apex-bot -c user.email=apex-bot@users.noreply.github.com commit -qm "data $(date -u +%FT%TZ)"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" data
+      - name: Keep the schedule alive
+        if: github.event_name == 'schedule'
+        run: bash scripts/keepalive.sh
       - name: Assemble the site
         run: bash scripts/assemble.sh
       - uses: actions/upload-pages-artifact@v3

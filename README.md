@@ -109,6 +109,47 @@ Only someone with your token can do either.
 7. **Free domain (optional)**: claim the Student Pack `.me` domain and set it as a custom domain in
    Pages settings.
 
+## Keeping the schedule running
+
+**The 60-day rule.** GitHub turns off scheduled workflows in a public repo after 60 days with no
+repository activity. Using the app with sync on counts as activity. As a backstop, every scheduled
+ingest run calls `scripts/keepalive.sh`, which works like this:
+
+- If main's newest commit is 50 or more days old, it pushes one empty `apex-bot` commit to reset the
+  timer. Otherwise it does nothing.
+- Pushes made with the Actions token start no other workflow.
+- Change the threshold with `KEEPALIVE_DAYS`.
+
+If GitHub ever disables the schedule anyway, re-enable it under Actions → ingest → Enable workflow.
+
+**Optional: an on-time trigger with cron-job.org.** GitHub can start scheduled runs late when it is
+busy, by minutes and sometimes much more. [cron-job.org](https://cron-job.org) is free and can start
+the workflow on time:
+
+1. Create a second fine-grained token for the `apex` repo only, with **Actions: read and write** and
+   nothing else. Keep it separate from the app's token, so you can revoke either one alone.
+2. In cron-job.org, create a job:
+   - URL: `https://api.github.com/repos/Srikhanth0/apex/actions/workflows/ingest.yml/dispatches`
+   - Schedule: every 3 hours, at a minute GitHub's own cron does not use (for example :05).
+   - Advanced, request method: `POST`
+   - Headers:
+     - `Authorization: Bearer <that token>`
+     - `Accept: application/vnd.github+json`
+     - `X-GitHub-Api-Version: 2022-11-28`
+     - `Content-Type: application/json`
+   - Request body: `{"ref":"main","inputs":{"kind":"all"}}`
+3. Save and use "Test run". A `204` response means the run was queued; it shows under Actions as
+   `workflow_dispatch`.
+
+Keeping both triggers is safe:
+
+- Ingest has its own lock, so two triggers cannot run at once.
+- A newer waiting run replaces an older waiting one, never a run in progress.
+- Each source still follows its own `fetch_every_hours`, so an extra trigger never re-fetches early.
+
+The request returns at once, well inside cron-job.org's 30-second timeout. The token is stored at
+cron-job.org, so give it nothing beyond Actions access on this one repo, and set an expiry date.
+
 ## Run it locally
 
 ```bash
@@ -166,7 +207,7 @@ and search. CI runs both suites before every crawl.
 
 ## Limits, honestly
 
-- Data refreshes every 3 hours at best. GitHub can delay scheduled runs by several minutes.
+- Data refreshes every 3 hours at best. GitHub can delay scheduled runs; the cron-job.org trigger above fixes the timing.
 - Remotive (robots.txt), Lobsters (robots.txt) and the Harvard Health feed (404) are disabled.
 - Work mode is unknown for many Greenhouse jobs because the board does not say; the app shows it as unknown.
 - Skills come from a fixed vocabulary of about 60 terms; edit `sources/skills.json` to extend it.
