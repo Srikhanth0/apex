@@ -9,9 +9,10 @@ permissions:
   contents: read
   pages: write
   id-token: write
+# A newer push supersedes an older one; it never touches the ingest lock.
 concurrency:
-  group: apex-data
-  cancel-in-progress: false
+  group: apex-deploy
+  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,6 +29,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    concurrency:
+      group: apex-pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.pages.outputs.page_url }}

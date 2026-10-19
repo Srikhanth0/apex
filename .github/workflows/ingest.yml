@@ -20,8 +20,9 @@ permissions:
   contents: write
   pages: write
   id-token: write
+# Ingest has its own lock (a newer scheduled run may replace one that is still waiting, never a running one).
 concurrency:
-  group: apex-data
+  group: apex-ingest
   cancel-in-progress: false
 jobs:
   ingest:
@@ -83,6 +84,9 @@ jobs:
   deploy:
     needs: ingest
     runs-on: ubuntu-latest
+    concurrency:
+      group: apex-pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.pages.outputs.page_url }}
