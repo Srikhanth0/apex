@@ -266,6 +266,9 @@ dl.cheat dt { font-weight: 500; padding-right: 12px; }
 
 @media (max-width: 1100px) {
   .s3 { grid-column: span 6; } .s9, .s8, .s7, .s6, .s5, .s4 { grid-column: span 12; }
+  /* a side rail (a stack of panels) fills the row and lays its panels side by side */
+  .stack.s3, .stack.s4, .stack.s5 { grid-column: span 12; }
+  .stack.s3:has(> :nth-child(2)), .stack.s4:has(> :nth-child(2)), .stack.s5:has(> :nth-child(2)) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
   .filters { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
@@ -298,6 +301,7 @@ dl.cheat dt { font-weight: 500; padding-right: 12px; }
   .filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .filters .q { grid-column: 1 / -1; }
   .board { grid-template-columns: 1fr; }
+  .stack.s3:has(> :nth-child(2)), .stack.s4:has(> :nth-child(2)), .stack.s5:has(> :nth-child(2)) { grid-template-columns: minmax(0, 1fr); }
   .row { flex-wrap: wrap; }
   .row .act { width: 100%; justify-content: flex-start; }
   .row .check + .main + .act { padding-left: 36px; }
