@@ -1,0 +1,179 @@
+{
+ "version": 1,
+ "interests_default": [
+  "llm-engineering",
+  "ai-tools",
+  "software-engineering",
+  "deep-work",
+  "learning",
+  "career"
+ ],
+ "topics": {
+  "productivity": {
+   "label": "Productivity",
+   "keywords": [
+    "productivity",
+    "time management",
+    "habits",
+    "routine",
+    "to-do",
+    "workflow",
+    "planning",
+    "procrastination",
+    "getting things done"
+   ]
+  },
+  "deep-work": {
+   "label": "Deep work",
+   "keywords": [
+    "deep work",
+    "focus",
+    "attention",
+    "distraction",
+    "flow state",
+    "concentration",
+    "slow productivity"
+   ]
+  },
+  "ai-tools": {
+   "label": "AI tools",
+   "keywords": [
+    "claude",
+    "chatgpt",
+    "gemini",
+    "copilot",
+    "cursor",
+    "agent",
+    "tool",
+    "api",
+    "release",
+    "launch",
+    "model",
+    "openai",
+    "anthropic",
+    "mcp"
+   ]
+  },
+  "llm-engineering": {
+   "label": "LLM engineering",
+   "keywords": [
+    "llm",
+    "rag",
+    "retrieval",
+    "embedding",
+    "prompt",
+    "eval",
+    "fine-tun",
+    "inference",
+    "vector",
+    "agentic",
+    "context window",
+    "tokens",
+    "langchain",
+    "dspy"
+   ]
+  },
+  "ai-research": {
+   "label": "AI research",
+   "keywords": [
+    "paper",
+    "arxiv",
+    "benchmark",
+    "transformer",
+    "reinforcement learning",
+    "pretraining",
+    "post-training",
+    "reasoning",
+    "diffusion",
+    "alignment",
+    "interpretability",
+    "scaling"
+   ]
+  },
+  "software-engineering": {
+   "label": "Software engineering",
+   "keywords": [
+    "python",
+    "rust",
+    "typescript",
+    "database",
+    "postgres",
+    "testing",
+    "architecture",
+    "api",
+    "kubernetes",
+    "performance",
+    "debugging",
+    "open source",
+    "git",
+    "refactor"
+   ]
+  },
+  "career": {
+   "label": "Career",
+   "keywords": [
+    "career",
+    "interview",
+    "hiring",
+    "job",
+    "promotion",
+    "manager",
+    "resume",
+    "salary",
+    "engineering ladder"
+   ]
+  },
+  "business": {
+   "label": "Business",
+   "keywords": [
+    "startup",
+    "business",
+    "founder",
+    "market",
+    "strategy",
+    "revenue",
+    "pricing",
+    "growth",
+    "product"
+   ]
+  },
+  "learning": {
+   "label": "Learning",
+   "keywords": [
+    "learning",
+    "study",
+    "skill",
+    "practice",
+    "memory",
+    "spaced repetition",
+    "teach",
+    "course",
+    "reading"
+   ]
+  },
+  "psychology": {
+   "label": "Psychology",
+   "keywords": [
+    "decision",
+    "bias",
+    "mental model",
+    "psychology",
+    "thinking",
+    "judgment",
+    "motivation"
+   ]
+  },
+  "health": {
+   "label": "Health",
+   "keywords": [
+    "sleep",
+    "exercise",
+    "nutrition",
+    "health",
+    "stress",
+    "heart",
+    "fitness"
+   ]
+  }
+ }
+}

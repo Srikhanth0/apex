@@ -1,0 +1,14 @@
+# local tooling
+.venv/
+.taste-skill/
+.claude/
+__pycache__/
+.pytest_cache/
+.DS_Store
+# generated: the ingest workflow keeps these on the `data` branch, not on main
+api/
+data/store/
+_site/
+.data/
+.publish/
+.env

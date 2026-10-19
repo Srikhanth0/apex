@@ -1,0 +1,4 @@
+# Pipeline dependencies (GitHub Actions installs these; the website itself needs none).
+scrapling[fetchers]==0.5
+feedparser==6.0.14
+pytest==9.1.1

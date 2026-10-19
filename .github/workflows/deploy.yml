@@ -1,0 +1,36 @@
+# Redeploy the site when the app's code or source lists change (the data branch supplies api/).
+name: deploy
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['data/tracker.json', 'README.md']
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: apex-data
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bring in the latest API from the data branch
+        run: |
+          mkdir -p .data
+          if git fetch -q --depth=1 origin data:refs/remotes/origin/data; then git archive refs/remotes/origin/data | tar -x -C .data; cp -r .data/api . ; fi
+      - run: bash scripts/assemble.sh
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - id: pages
+        uses: actions/deploy-pages@v4

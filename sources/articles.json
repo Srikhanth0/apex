@@ -1,0 +1,591 @@
+{
+ "version": 1,
+ "sources": [
+  {
+   "id": "simonw",
+   "name": "Simon Willison",
+   "url": "https://simonwillison.net/atom/everything/",
+   "type": "atom",
+   "categories": [
+    "llm-engineering",
+    "ai-tools"
+   ],
+   "tags": [],
+   "fetch_every_hours": 6,
+   "priority": 5,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "latent",
+   "name": "Latent Space",
+   "url": "https://www.latent.space/feed",
+   "type": "rss",
+   "categories": [
+    "llm-engineering",
+    "ai-tools"
+   ],
+   "tags": [],
+   "fetch_every_hours": 12,
+   "priority": 5,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "raschka",
+   "name": "Ahead of AI",
+   "url": "https://magazine.sebastianraschka.com/feed",
+   "type": "rss",
+   "categories": [
+    "ai-research",
+    "llm-engineering"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 4,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "interconnects",
+   "name": "Interconnects",
+   "url": "https://www.interconnects.ai/feed",
+   "type": "rss",
+   "categories": [
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 4,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "importai",
+   "name": "Import AI",
+   "url": "https://importai.substack.com/feed",
+   "type": "rss",
+   "categories": [
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 3,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "hfblog",
+   "name": "Hugging Face blog",
+   "url": "https://huggingface.co/blog/feed.xml",
+   "type": "rss",
+   "categories": [
+    "llm-engineering",
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 12,
+   "priority": 4,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "hfpapers",
+   "name": "Hugging Face daily papers",
+   "url": "https://huggingface.co/api/daily_papers",
+   "type": "hf_papers",
+   "categories": [
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 12,
+   "priority": 4,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 20
+  },
+  {
+   "id": "arxiv-cl",
+   "name": "arXiv cs.CL (new)",
+   "url": "https://rss.arxiv.org/rss/cs.CL",
+   "type": "rss",
+   "categories": [
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 2,
+   "trust": 3,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 12
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI news",
+   "url": "https://openai.com/news/rss.xml",
+   "type": "rss",
+   "categories": [
+    "ai-tools",
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 12,
+   "priority": 4,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "deepmind",
+   "name": "Google DeepMind blog",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "type": "rss",
+   "categories": [
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 3,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "googleresearch",
+   "name": "Google Research blog",
+   "url": "https://research.google/blog/rss/",
+   "type": "rss",
+   "categories": [
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 3,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "anthropic-news",
+   "name": "Anthropic news",
+   "url": "https://www.anthropic.com/news",
+   "type": "webpage",
+   "categories": [
+    "ai-tools",
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 12,
+   "priority": 5,
+   "trust": 5,
+   "enabled": true,
+   "full_text": true,
+   "max_items": 8,
+   "list": {
+    "item_link": "a[href^=\"/news/\"]::attr(href)"
+   }
+  },
+  {
+   "id": "anthropic-eng",
+   "name": "Anthropic engineering",
+   "url": "https://www.anthropic.com/engineering",
+   "type": "webpage",
+   "categories": [
+    "llm-engineering"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 5,
+   "trust": 5,
+   "enabled": true,
+   "full_text": true,
+   "max_items": 8,
+   "list": {
+    "item_link": "a[href^=\"/engineering/\"]::attr(href)"
+   }
+  },
+  {
+   "id": "lilian",
+   "name": "Lilian Weng",
+   "url": "https://lilianweng.github.io/index.xml",
+   "type": "rss",
+   "categories": [
+    "ai-research"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 4,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "eugene",
+   "name": "Eugene Yan",
+   "url": "https://eugeneyan.com/rss/",
+   "type": "rss",
+   "categories": [
+    "llm-engineering",
+    "career"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 4,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "hamel",
+   "name": "Hamel Husain",
+   "url": "https://hamel.dev/index.xml",
+   "type": "rss",
+   "categories": [
+    "llm-engineering"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 4,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "chip",
+   "name": "Chip Huyen",
+   "url": "https://huyenchip.com/feed.xml",
+   "type": "rss",
+   "categories": [
+    "llm-engineering"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 4,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "karpathy",
+   "name": "Andrej Karpathy blog",
+   "url": "https://karpathy.github.io/feed.xml",
+   "type": "rss",
+   "categories": [
+    "ai-research",
+    "learning"
+   ],
+   "tags": [],
+   "fetch_every_hours": 72,
+   "priority": 3,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "pragmatic",
+   "name": "The Pragmatic Engineer",
+   "url": "https://blog.pragmaticengineer.com/rss/",
+   "type": "rss",
+   "categories": [
+    "software-engineering",
+    "career"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 4,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "fowler",
+   "name": "Martin Fowler",
+   "url": "https://martinfowler.com/feed.atom",
+   "type": "atom",
+   "categories": [
+    "software-engineering"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 3,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "ghblog",
+   "name": "GitHub blog",
+   "url": "https://github.blog/feed/",
+   "type": "rss",
+   "categories": [
+    "software-engineering",
+    "ai-tools"
+   ],
+   "tags": [],
+   "fetch_every_hours": 12,
+   "priority": 3,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "ghchangelog",
+   "name": "GitHub changelog",
+   "url": "https://github.blog/changelog/feed/",
+   "type": "rss",
+   "categories": [
+    "ai-tools"
+   ],
+   "tags": [],
+   "fetch_every_hours": 12,
+   "priority": 2,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 10
+  },
+  {
+   "id": "jvns",
+   "name": "Julia Evans",
+   "url": "https://jvns.ca/atom.xml",
+   "type": "atom",
+   "categories": [
+    "software-engineering",
+    "learning"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 3,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "realpython",
+   "name": "Real Python",
+   "url": "https://realpython.com/atom.xml",
+   "type": "atom",
+   "categories": [
+    "software-engineering",
+    "learning"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 3,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "hn",
+   "name": "Hacker News 250+ points",
+   "url": "https://hnrss.org/frontpage?points=250",
+   "type": "rss",
+   "categories": [
+    "software-engineering"
+   ],
+   "tags": [],
+   "fetch_every_hours": 6,
+   "priority": 3,
+   "trust": 3,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 20
+  },
+  {
+   "id": "lobsters",
+   "name": "Lobsters",
+   "url": "https://lobste.rs/rss",
+   "type": "rss",
+   "categories": [
+    "software-engineering"
+   ],
+   "tags": [],
+   "fetch_every_hours": 12,
+   "priority": 2,
+   "trust": 3,
+   "enabled": false,
+   "full_text": false,
+   "max_items": 15,
+   "note": "Disabled: lobste.rs robots.txt disallows this crawler."
+  },
+  {
+   "id": "newport",
+   "name": "Cal Newport",
+   "url": "https://calnewport.com/feed/",
+   "type": "rss",
+   "categories": [
+    "deep-work",
+    "productivity"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 4,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "fs",
+   "name": "Farnam Street",
+   "url": "https://fs.blog/feed/",
+   "type": "rss",
+   "categories": [
+    "psychology",
+    "learning"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 4,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "nesslabs",
+   "name": "Ness Labs",
+   "url": "https://nesslabs.com/feed",
+   "type": "rss",
+   "categories": [
+    "productivity",
+    "learning"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 3,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "jamesclear",
+   "name": "James Clear",
+   "url": "https://jamesclear.com/feed",
+   "type": "rss",
+   "categories": [
+    "productivity",
+    "psychology"
+   ],
+   "tags": [],
+   "fetch_every_hours": 72,
+   "priority": 3,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "scotthyoung",
+   "name": "Scott H Young",
+   "url": "https://www.scotthyoung.com/blog/feed/",
+   "type": "rss",
+   "categories": [
+    "learning"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 4,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "pg",
+   "name": "Paul Graham essays",
+   "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+   "type": "rss",
+   "categories": [
+    "business",
+    "career"
+   ],
+   "tags": [],
+   "fetch_every_hours": 168,
+   "priority": 3,
+   "trust": 5,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "stratechery",
+   "name": "Stratechery",
+   "url": "https://stratechery.com/feed/",
+   "type": "rss",
+   "categories": [
+    "business"
+   ],
+   "tags": [],
+   "fetch_every_hours": 24,
+   "priority": 3,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "lenny",
+   "name": "Lenny's Newsletter",
+   "url": "https://www.lennysnewsletter.com/feed",
+   "type": "rss",
+   "categories": [
+    "business",
+    "career"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 2,
+   "trust": 4,
+   "enabled": true,
+   "full_text": false,
+   "max_items": 15
+  },
+  {
+   "id": "harvardhealth",
+   "name": "Harvard Health blog",
+   "url": "https://www.health.harvard.edu/blog/feed",
+   "type": "rss",
+   "categories": [
+    "health"
+   ],
+   "tags": [],
+   "fetch_every_hours": 48,
+   "priority": 2,
+   "trust": 4,
+   "enabled": false,
+   "full_text": false,
+   "max_items": 15,
+   "note": "Feed URL returned 404 on 2026-10-19; find the current feed before enabling."
+  }
+ ]
+}

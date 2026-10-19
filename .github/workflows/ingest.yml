@@ -1,0 +1,91 @@
+# Scheduled ingestion: articles + jobs. Runs on GitHub's free runners; no server needed.
+# Scraped data lives on the `data` branch as a single force-pushed commit, so main's history stays small.
+name: ingest
+on:
+  schedule:
+    - cron: '17 */3 * * *'   # every 3 hours; each source still follows its own fetch_every_hours
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: articles, jobs or all
+        default: all
+      source:
+        description: one source id to refresh (optional)
+        default: ''
+      force:
+        description: ignore each source's schedule
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: apex-data
+  cancel-in-progress: false
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore the pipeline store from the data branch
+        run: |
+          mkdir -p data/store .data
+          if git fetch -q --depth=1 origin data:refs/remotes/origin/data; then git archive refs/remotes/origin/data | tar -x -C .data; fi
+          cp -r .data/store/. data/store/ 2>/dev/null || true
+          cp -r .data/api . 2>/dev/null || true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Unit tests
+        run: |
+          python -m pytest -q tests
+          node --test tests/
+      - name: Ingest
+        env:
+          KIND: ${{ inputs.kind || 'all' }}
+          SOURCE: ${{ inputs.source }}
+          FORCE: ${{ inputs.force }}
+          TRIGGER: ${{ github.event_name }}
+          AI_PROVIDER: ${{ vars.AI_PROVIDER || 'auto' }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        run: |
+          [[ "$KIND" =~ ^(articles|jobs|all)$ ]] || { echo "bad kind"; exit 1; }
+          ARGS=("$KIND" --trigger "$TRIGGER")
+          if [ -n "$SOURCE" ]; then [[ "$SOURCE" =~ ^[a-z0-9-]{1,60}$ ]] || { echo "bad source id"; exit 1; }; ARGS+=(--source "$SOURCE"); fi
+          [ "$FORCE" = "true" ] && ARGS+=(--force)
+          python -m pipeline "${ARGS[@]}"
+      - name: Job alerts
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: node scripts/alerts.mjs
+      - name: Save store and API to the data branch
+        run: |
+          rm -rf .publish && mkdir .publish && cp -r data/store .publish/store && cp -r api .publish/api
+          cd .publish && git init -q -b data && git add -A
+          git -c user.name=apex-bot -c user.email=apex-bot@users.noreply.github.com commit -qm "data $(date -u +%FT%TZ)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" data
+      - name: Assemble the site
+        run: bash scripts/assemble.sh
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: ingest
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - id: pages
+        uses: actions/deploy-pages@v4

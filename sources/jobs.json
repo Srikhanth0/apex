@@ -1,0 +1,170 @@
+{
+ "version": 1,
+ "title_filter": [
+  "engineer",
+  "developer",
+  "scientist",
+  "research",
+  "ml",
+  "ai",
+  "machine learning",
+  "data",
+  "platform",
+  "backend",
+  "software",
+  "applied",
+  "intern",
+  "graduate",
+  "new grad"
+ ],
+ "sources": [
+  {
+   "id": "greenhouse-anthropic",
+   "adapter": "greenhouse",
+   "board": "anthropic",
+   "company": "Anthropic",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "greenhouse-databricks",
+   "adapter": "greenhouse",
+   "board": "databricks",
+   "company": "Databricks",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "greenhouse-scaleai",
+   "adapter": "greenhouse",
+   "board": "scaleai",
+   "company": "Scale AI",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "greenhouse-stripe",
+   "adapter": "greenhouse",
+   "board": "stripe",
+   "company": "Stripe",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "greenhouse-gitlab",
+   "adapter": "greenhouse",
+   "board": "gitlab",
+   "company": "GitLab",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "greenhouse-cloudflare",
+   "adapter": "greenhouse",
+   "board": "cloudflare",
+   "company": "Cloudflare",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "greenhouse-figma",
+   "adapter": "greenhouse",
+   "board": "figma",
+   "company": "Figma",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "ashby-openai",
+   "adapter": "ashby",
+   "board": "openai",
+   "company": "OpenAI",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "ashby-cohere",
+   "adapter": "ashby",
+   "board": "cohere",
+   "company": "Cohere",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "ashby-perplexity",
+   "adapter": "ashby",
+   "board": "perplexity",
+   "company": "Perplexity",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "ashby-notion",
+   "adapter": "ashby",
+   "board": "notion",
+   "company": "Notion",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "ashby-langchain",
+   "adapter": "ashby",
+   "board": "langchain",
+   "company": "LangChain",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "ashby-modal",
+   "adapter": "ashby",
+   "board": "modal",
+   "company": "Modal",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "lever-palantir",
+   "adapter": "lever",
+   "board": "palantir",
+   "company": "Palantir",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "lever-spotify",
+   "adapter": "lever",
+   "board": "spotify",
+   "company": "Spotify",
+   "enabled": true,
+   "fetch_every_hours": 12
+  },
+  {
+   "id": "remotive-dev",
+   "adapter": "remotive",
+   "board": "software-dev",
+   "company": null,
+   "enabled": false,
+   "fetch_every_hours": 24,
+   "query": "",
+   "note": "Disabled: remotive.com robots.txt disallowed this crawler on 2026-10-19. Re-enable only if that changes."
+  },
+  {
+   "id": "remotive-ai",
+   "adapter": "remotive",
+   "board": "ai-ml",
+   "company": null,
+   "enabled": false,
+   "fetch_every_hours": 24,
+   "query": "",
+   "note": "Disabled: remotive.com robots.txt disallowed this crawler on 2026-10-19. Re-enable only if that changes."
+  },
+  {
+   "id": "arbeitnow",
+   "adapter": "arbeitnow",
+   "board": "all",
+   "company": null,
+   "enabled": true,
+   "fetch_every_hours": 24
+  }
+ ]
+}

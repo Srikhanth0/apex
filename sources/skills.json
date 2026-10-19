@@ -1,0 +1,444 @@
+{
+ "version": 1,
+ "skills": [
+  {
+   "name": "Python",
+   "aliases": [
+    "python"
+   ]
+  },
+  {
+   "name": "TypeScript",
+   "aliases": [
+    "typescript"
+   ]
+  },
+  {
+   "name": "JavaScript",
+   "aliases": [
+    "javascript",
+    "node.js",
+    "nodejs"
+   ]
+  },
+  {
+   "name": "Go",
+   "aliases": [
+    "golang"
+   ]
+  },
+  {
+   "name": "Rust",
+   "aliases": [
+    "rust"
+   ]
+  },
+  {
+   "name": "Java",
+   "aliases": [
+    "java "
+   ]
+  },
+  {
+   "name": "C++",
+   "aliases": [
+    "c++"
+   ]
+  },
+  {
+   "name": "SQL",
+   "aliases": [
+    "sql"
+   ]
+  },
+  {
+   "name": "PostgreSQL",
+   "aliases": [
+    "postgres",
+    "postgresql"
+   ]
+  },
+  {
+   "name": "Redis",
+   "aliases": [
+    "redis"
+   ]
+  },
+  {
+   "name": "MongoDB",
+   "aliases": [
+    "mongodb"
+   ]
+  },
+  {
+   "name": "Kafka",
+   "aliases": [
+    "kafka"
+   ]
+  },
+  {
+   "name": "Spark",
+   "aliases": [
+    "apache spark",
+    "pyspark",
+    "spark sql"
+   ]
+  },
+  {
+   "name": "Airflow",
+   "aliases": [
+    "airflow"
+   ]
+  },
+  {
+   "name": "dbt",
+   "aliases": [
+    "dbt"
+   ]
+  },
+  {
+   "name": "PyTorch",
+   "aliases": [
+    "pytorch",
+    "torch"
+   ]
+  },
+  {
+   "name": "TensorFlow",
+   "aliases": [
+    "tensorflow"
+   ]
+  },
+  {
+   "name": "JAX",
+   "aliases": [
+    "jax"
+   ]
+  },
+  {
+   "name": "scikit-learn",
+   "aliases": [
+    "scikit-learn",
+    "sklearn"
+   ]
+  },
+  {
+   "name": "pandas",
+   "aliases": [
+    "pandas"
+   ]
+  },
+  {
+   "name": "NumPy",
+   "aliases": [
+    "numpy"
+   ]
+  },
+  {
+   "name": "Hugging Face",
+   "aliases": [
+    "hugging face",
+    "huggingface",
+    "transformers library"
+   ]
+  },
+  {
+   "name": "LLMs",
+   "aliases": [
+    "llm",
+    "large language model"
+   ]
+  },
+  {
+   "name": "RAG",
+   "aliases": [
+    "rag",
+    "retrieval-augmented",
+    "retrieval augmented"
+   ]
+  },
+  {
+   "name": "Prompt engineering",
+   "aliases": [
+    "prompt engineering",
+    "prompting"
+   ]
+  },
+  {
+   "name": "Fine-tuning",
+   "aliases": [
+    "fine-tuning",
+    "fine tuning",
+    "finetuning",
+    "lora",
+    "peft"
+   ]
+  },
+  {
+   "name": "Evals",
+   "aliases": [
+    "evals",
+    "evaluation framework",
+    "llm evaluation"
+   ]
+  },
+  {
+   "name": "Agents",
+   "aliases": [
+    "ai agents",
+    "agentic",
+    "tool use",
+    "function calling"
+   ]
+  },
+  {
+   "name": "Vector databases",
+   "aliases": [
+    "vector database",
+    "pinecone",
+    "weaviate",
+    "qdrant",
+    "pgvector",
+    "faiss",
+    "milvus"
+   ]
+  },
+  {
+   "name": "Embeddings",
+   "aliases": [
+    "embedding"
+   ]
+  },
+  {
+   "name": "LangChain",
+   "aliases": [
+    "langchain"
+   ]
+  },
+  {
+   "name": "LlamaIndex",
+   "aliases": [
+    "llamaindex"
+   ]
+  },
+  {
+   "name": "MLOps",
+   "aliases": [
+    "mlops",
+    "model serving",
+    "model deployment"
+   ]
+  },
+  {
+   "name": "vLLM",
+   "aliases": [
+    "vllm"
+   ]
+  },
+  {
+   "name": "CUDA",
+   "aliases": [
+    "cuda"
+   ]
+  },
+  {
+   "name": "Distributed training",
+   "aliases": [
+    "distributed training",
+    "deepspeed",
+    "fsdp"
+   ]
+  },
+  {
+   "name": "Computer vision",
+   "aliases": [
+    "computer vision",
+    "opencv"
+   ]
+  },
+  {
+   "name": "NLP",
+   "aliases": [
+    "nlp",
+    "natural language processing"
+   ]
+  },
+  {
+   "name": "Reinforcement learning",
+   "aliases": [
+    "reinforcement learning",
+    "rlhf"
+   ]
+  },
+  {
+   "name": "FastAPI",
+   "aliases": [
+    "fastapi"
+   ]
+  },
+  {
+   "name": "Django",
+   "aliases": [
+    "django"
+   ]
+  },
+  {
+   "name": "Flask",
+   "aliases": [
+    "flask"
+   ]
+  },
+  {
+   "name": "React",
+   "aliases": [
+    "react.js",
+    "reactjs",
+    "react native",
+    " react,",
+    "react/"
+   ]
+  },
+  {
+   "name": "Next.js",
+   "aliases": [
+    "next.js",
+    "nextjs"
+   ]
+  },
+  {
+   "name": "GraphQL",
+   "aliases": [
+    "graphql"
+   ]
+  },
+  {
+   "name": "REST APIs",
+   "aliases": [
+    "rest api",
+    "restful"
+   ]
+  },
+  {
+   "name": "gRPC",
+   "aliases": [
+    "grpc"
+   ]
+  },
+  {
+   "name": "Docker",
+   "aliases": [
+    "docker"
+   ]
+  },
+  {
+   "name": "Kubernetes",
+   "aliases": [
+    "kubernetes",
+    "k8s"
+   ]
+  },
+  {
+   "name": "Terraform",
+   "aliases": [
+    "terraform"
+   ]
+  },
+  {
+   "name": "AWS",
+   "aliases": [
+    "aws",
+    "amazon web services"
+   ]
+  },
+  {
+   "name": "GCP",
+   "aliases": [
+    "gcp",
+    "google cloud"
+   ]
+  },
+  {
+   "name": "Azure",
+   "aliases": [
+    "azure"
+   ]
+  },
+  {
+   "name": "CI/CD",
+   "aliases": [
+    "ci/cd",
+    "github actions",
+    "continuous integration"
+   ]
+  },
+  {
+   "name": "Linux",
+   "aliases": [
+    "linux"
+   ]
+  },
+  {
+   "name": "Git",
+   "aliases": [
+    "git ",
+    "git,"
+   ]
+  },
+  {
+   "name": "Data structures and algorithms",
+   "aliases": [
+    "data structures",
+    "algorithms"
+   ]
+  },
+  {
+   "name": "System design",
+   "aliases": [
+    "system design",
+    "distributed systems"
+   ]
+  },
+  {
+   "name": "Testing",
+   "aliases": [
+    "unit test",
+    "pytest",
+    "test-driven",
+    "tdd"
+   ]
+  },
+  {
+   "name": "Observability",
+   "aliases": [
+    "observability",
+    "opentelemetry",
+    "prometheus",
+    "grafana",
+    "datadog"
+   ]
+  },
+  {
+   "name": "Security",
+   "aliases": [
+    "application security",
+    "security engineering",
+    "appsec",
+    "threat modeling"
+   ]
+  },
+  {
+   "name": "Statistics",
+   "aliases": [
+    "statistics",
+    "statistical modeling"
+   ]
+  },
+  {
+   "name": "A/B testing",
+   "aliases": [
+    "a/b test",
+    "experimentation"
+   ]
+  }
+ ]
+}

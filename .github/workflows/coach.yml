@@ -1,0 +1,31 @@
+# Daily coach nudges through ntfy (no API key). Times are UTC: 02:00 = 07:30 IST, 15:00 = 20:30 IST.
+name: coach
+on:
+  schedule:
+    - cron: '0 2 * * *'
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: morning or evening
+        default: morning
+permissions:
+  contents: read
+jobs:
+  coach:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bring in today's briefing from the data branch
+        run: |
+          mkdir -p .data
+          if git fetch -q --depth=1 origin data:refs/remotes/origin/data; then git archive refs/remotes/origin/data | tar -x -C .data; cp -r .data/api . ; fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TZ: Asia/Kolkata
+          SLOT: ${{ github.event.inputs.slot || (github.event.schedule == '0 15 * * *' && 'evening' || 'morning') }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: node scripts/coach.mjs
