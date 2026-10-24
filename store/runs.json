@@ -1,0 +1,4234 @@
+[
+ {
+  "kind": "articles",
+  "started_at": "2026-10-19T16:34:42Z",
+  "sources": {
+   "simonw": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1419,
+    "page_errors": 0
+   },
+   "latent": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2823,
+    "page_errors": 0
+   },
+   "raschka": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3546,
+    "page_errors": 0
+   },
+   "interconnects": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1631,
+    "page_errors": 0
+   },
+   "importai": {
+    "status": "failed",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1210,
+    "page_errors": 0,
+    "error": "HTTP 403"
+   },
+   "hfblog": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1395,
+    "page_errors": 0
+   },
+   "hfpapers": {
+    "status": "ok",
+    "new": 20,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1309,
+    "page_errors": 0
+   },
+   "arxiv-cl": {
+    "status": "ok",
+    "new": 11,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 1,
+    "invalid": 0,
+    "ms": 1763,
+    "page_errors": 0
+   },
+   "openai": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2074,
+    "page_errors": 0
+   },
+   "deepmind": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1907,
+    "page_errors": 0
+   },
+   "googleresearch": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1256,
+    "page_errors": 0
+   },
+   "anthropic-news": {
+    "status": "ok",
+    "new": 8,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 18607,
+    "page_errors": 0
+   },
+   "anthropic-eng": {
+    "status": "ok",
+    "new": 8,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 18985,
+    "page_errors": 0
+   },
+   "lilian": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1108,
+    "page_errors": 0
+   },
+   "eugene": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1664,
+    "page_errors": 0
+   },
+   "hamel": {
+    "status": "ok",
+    "new": 10,
+    "updated": 5,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1678,
+    "page_errors": 0
+   },
+   "chip": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2264,
+    "page_errors": 0
+   },
+   "karpathy": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2560,
+    "page_errors": 0
+   },
+   "pragmatic": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1974,
+    "page_errors": 0
+   },
+   "fowler": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1966,
+    "page_errors": 0
+   },
+   "ghblog": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1319,
+    "page_errors": 0
+   },
+   "ghchangelog": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1075,
+    "page_errors": 0
+   },
+   "jvns": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1528,
+    "page_errors": 0
+   },
+   "realpython": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1487,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "failed",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 5296,
+    "page_errors": 0,
+    "error": "HTTP 502"
+   },
+   "newport": {
+    "status": "ok",
+    "new": 8,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1174,
+    "page_errors": 0
+   },
+   "fs": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1489,
+    "page_errors": 0
+   },
+   "nesslabs": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1443,
+    "page_errors": 0
+   },
+   "jamesclear": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1276,
+    "page_errors": 0
+   },
+   "scotthyoung": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1419,
+    "page_errors": 0
+   },
+   "pg": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1332,
+    "page_errors": 0
+   },
+   "stratechery": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1505,
+    "page_errors": 0
+   },
+   "lenny": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1323,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 400,
+   "updated": 5,
+   "unchanged": 0,
+   "duplicates": 1,
+   "invalid": 0,
+   "failed_sources": 2,
+   "enriched_ai": 0,
+   "enriched_extractive": 405
+  },
+  "finished_at": "2026-10-19T16:35:06Z",
+  "skipped_not_due": 0,
+  "id": "7a60def8e9",
+  "trigger": "workflow_dispatch"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-19T16:35:06Z",
+  "sources": {
+   "greenhouse-anthropic": {
+    "status": "ok",
+    "fetched": 662,
+    "new": 328,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 334,
+    "expired": 0,
+    "ms": 14171
+   },
+   "greenhouse-databricks": {
+    "status": "ok",
+    "fetched": 902,
+    "new": 412,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 490,
+    "expired": 0,
+    "ms": 7204
+   },
+   "greenhouse-scaleai": {
+    "status": "ok",
+    "fetched": 182,
+    "new": 97,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 85,
+    "expired": 0,
+    "ms": 7375
+   },
+   "greenhouse-stripe": {
+    "status": "ok",
+    "fetched": 723,
+    "new": 196,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 527,
+    "expired": 0,
+    "ms": 16036
+   },
+   "greenhouse-gitlab": {
+    "status": "ok",
+    "fetched": 228,
+    "new": 86,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 142,
+    "expired": 0,
+    "ms": 9420
+   },
+   "greenhouse-cloudflare": {
+    "status": "ok",
+    "fetched": 436,
+    "new": 212,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 224,
+    "expired": 0,
+    "ms": 10080
+   },
+   "greenhouse-figma": {
+    "status": "ok",
+    "fetched": 140,
+    "new": 46,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 94,
+    "expired": 0,
+    "ms": 8686
+   },
+   "ashby-openai": {
+    "status": "ok",
+    "fetched": 814,
+    "new": 459,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 355,
+    "expired": 0,
+    "ms": 1523
+   },
+   "ashby-cohere": {
+    "status": "ok",
+    "fetched": 114,
+    "new": 57,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 57,
+    "expired": 0,
+    "ms": 695
+   },
+   "ashby-perplexity": {
+    "status": "ok",
+    "fetched": 134,
+    "new": 62,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 72,
+    "expired": 0,
+    "ms": 1168
+   },
+   "ashby-notion": {
+    "status": "ok",
+    "fetched": 131,
+    "new": 31,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 100,
+    "expired": 0,
+    "ms": 1961
+   },
+   "ashby-langchain": {
+    "status": "ok",
+    "fetched": 102,
+    "new": 45,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 57,
+    "expired": 0,
+    "ms": 2516
+   },
+   "ashby-modal": {
+    "status": "ok",
+    "fetched": 43,
+    "new": 14,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 29,
+    "expired": 0,
+    "ms": 2935
+   },
+   "lever-palantir": {
+    "status": "ok",
+    "fetched": 310,
+    "new": 202,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 108,
+    "expired": 0,
+    "ms": 2541
+   },
+   "lever-spotify": {
+    "status": "ok",
+    "fetched": 82,
+    "new": 38,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 44,
+    "expired": 0,
+    "ms": 1592
+   },
+   "arbeitnow": {
+    "status": "ok",
+    "fetched": 300,
+    "new": 79,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "filtered": 221,
+    "expired": 0,
+    "ms": 1383
+   }
+  },
+  "totals": {
+   "new": 2364,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 2939,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2364
+  },
+  "finished_at": "2026-10-19T16:36:00Z",
+  "skipped_not_due": 0,
+  "id": "4683838e7e",
+  "trigger": "workflow_dispatch"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-19T22:19:26Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 0
+  },
+  "finished_at": "2026-10-19T22:19:26Z",
+  "skipped_not_due": 33,
+  "id": "b831a50700",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-19T22:19:27Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2364
+  },
+  "finished_at": "2026-10-19T22:19:27Z",
+  "skipped_not_due": 16,
+  "id": "af0b1adce2",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-20T04:44:50Z",
+  "sources": {
+   "simonw": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1543,
+    "page_errors": 0
+   },
+   "latent": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 15,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1684,
+    "page_errors": 0
+   },
+   "hfblog": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3309,
+    "page_errors": 0
+   },
+   "hfpapers": {
+    "status": "ok",
+    "new": 20,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2115,
+    "page_errors": 0
+   },
+   "openai": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2084,
+    "page_errors": 0
+   },
+   "anthropic-news": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 8,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1524,
+    "page_errors": 0
+   },
+   "ghblog": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 9,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3486,
+    "page_errors": 0
+   },
+   "ghchangelog": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 8,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2417,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 7,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1302,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 33,
+   "updated": 0,
+   "unchanged": 82,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 33
+  },
+  "finished_at": "2026-10-20T04:44:55Z",
+  "skipped_not_due": 24,
+  "id": "94a97d8a91",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-20T04:44:55Z",
+  "sources": {
+   "greenhouse-anthropic": {
+    "status": "ok",
+    "fetched": 667,
+    "new": 2,
+    "updated": 3,
+    "unchanged": 324,
+    "duplicates": 0,
+    "filtered": 338,
+    "expired": 1,
+    "ms": 9167
+   },
+   "greenhouse-databricks": {
+    "status": "ok",
+    "fetched": 899,
+    "new": 2,
+    "updated": 3,
+    "unchanged": 408,
+    "duplicates": 0,
+    "filtered": 486,
+    "expired": 1,
+    "ms": 15838
+   },
+   "greenhouse-scaleai": {
+    "status": "ok",
+    "fetched": 182,
+    "new": 1,
+    "updated": 1,
+    "unchanged": 94,
+    "duplicates": 0,
+    "filtered": 86,
+    "expired": 2,
+    "ms": 7329
+   },
+   "greenhouse-stripe": {
+    "status": "ok",
+    "fetched": 723,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 194,
+    "duplicates": 0,
+    "filtered": 527,
+    "expired": 2,
+    "ms": 6759
+   },
+   "greenhouse-gitlab": {
+    "status": "ok",
+    "fetched": 228,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 83,
+    "duplicates": 0,
+    "filtered": 143,
+    "expired": 3,
+    "ms": 11672
+   },
+   "greenhouse-cloudflare": {
+    "status": "ok",
+    "fetched": 436,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 212,
+    "duplicates": 0,
+    "filtered": 224,
+    "expired": 0,
+    "ms": 9837
+   },
+   "greenhouse-figma": {
+    "status": "ok",
+    "fetched": 141,
+    "new": 3,
+    "updated": 1,
+    "unchanged": 44,
+    "duplicates": 0,
+    "filtered": 93,
+    "expired": 1,
+    "ms": 8625
+   },
+   "ashby-openai": {
+    "status": "ok",
+    "fetched": 806,
+    "new": 5,
+    "updated": 0,
+    "unchanged": 449,
+    "duplicates": 0,
+    "filtered": 352,
+    "expired": 10,
+    "ms": 1421
+   },
+   "ashby-cohere": {
+    "status": "ok",
+    "fetched": 116,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 57,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 716
+   },
+   "ashby-perplexity": {
+    "status": "ok",
+    "fetched": 133,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 62,
+    "duplicates": 0,
+    "filtered": 71,
+    "expired": 0,
+    "ms": 1275
+   },
+   "ashby-notion": {
+    "status": "ok",
+    "fetched": 133,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 31,
+    "duplicates": 0,
+    "filtered": 101,
+    "expired": 0,
+    "ms": 2014
+   },
+   "ashby-langchain": {
+    "status": "ok",
+    "fetched": 104,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 45,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 2594
+   },
+   "ashby-modal": {
+    "status": "ok",
+    "fetched": 43,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "filtered": 29,
+    "expired": 0,
+    "ms": 2980
+   },
+   "lever-palantir": {
+    "status": "ok",
+    "fetched": 309,
+    "new": 4,
+    "updated": 0,
+    "unchanged": 196,
+    "duplicates": 0,
+    "filtered": 109,
+    "expired": 6,
+    "ms": 3905
+   },
+   "lever-spotify": {
+    "status": "ok",
+    "fetched": 82,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 38,
+    "duplicates": 0,
+    "filtered": 44,
+    "expired": 0,
+    "ms": 5948
+   }
+  },
+  "totals": {
+   "new": 24,
+   "updated": 8,
+   "unchanged": 2251,
+   "duplicates": 0,
+   "filtered": 2719,
+   "expired": 26,
+   "failed_sources": 0,
+   "active": 2362
+  },
+  "finished_at": "2026-10-20T04:45:51Z",
+  "skipped_not_due": 1,
+  "id": "cdd63f430e",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-20T11:31:19Z",
+  "sources": {
+   "simonw": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1141,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 6,
+    "updated": 6,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2992,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 6,
+   "updated": 6,
+   "unchanged": 0,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 12
+  },
+  "finished_at": "2026-10-20T11:31:22Z",
+  "skipped_not_due": 31,
+  "id": "d101cbae94",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-20T11:31:22Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2362
+  },
+  "finished_at": "2026-10-20T11:31:22Z",
+  "skipped_not_due": 16,
+  "id": "bd7f51cc57",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-20T16:59:40Z",
+  "sources": {
+   "latent": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2005,
+    "page_errors": 0
+   },
+   "raschka": {
+    "status": "ok",
+    "new": 13,
+    "updated": 0,
+    "unchanged": 2,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2059,
+    "page_errors": 0
+   },
+   "interconnects": {
+    "status": "ok",
+    "new": 5,
+    "updated": 0,
+    "unchanged": 10,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1264,
+    "page_errors": 0
+   },
+   "importai": {
+    "status": "failed",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1076,
+    "page_errors": 0,
+    "error": "HTTP 403"
+   },
+   "hfblog": {
+    "status": "ok",
+    "new": 5,
+    "updated": 0,
+    "unchanged": 10,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2250,
+    "page_errors": 0
+   },
+   "hfpapers": {
+    "status": "ok",
+    "new": 20,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3129,
+    "page_errors": 0
+   },
+   "arxiv-cl": {
+    "status": "ok",
+    "new": 12,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1732,
+    "page_errors": 0
+   },
+   "openai": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 15,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1600,
+    "page_errors": 0
+   },
+   "deepmind": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1477,
+    "page_errors": 0
+   },
+   "googleresearch": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1271,
+    "page_errors": 0
+   },
+   "anthropic-news": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 8,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1542,
+    "page_errors": 0
+   },
+   "anthropic-eng": {
+    "status": "ok",
+    "new": 7,
+    "updated": 0,
+    "unchanged": 1,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 8712,
+    "page_errors": 0
+   },
+   "pragmatic": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 5,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1243,
+    "page_errors": 0
+   },
+   "ghblog": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 9,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1220,
+    "page_errors": 0
+   },
+   "ghchangelog": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 9,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1922,
+    "page_errors": 0
+   },
+   "realpython": {
+    "status": "ok",
+    "new": 9,
+    "updated": 1,
+    "unchanged": 5,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1268,
+    "page_errors": 0
+   },
+   "stratechery": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 9,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1535,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 88,
+   "updated": 1,
+   "unchanged": 124,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 1,
+   "enriched_ai": 0,
+   "enriched_extractive": 89
+  },
+  "finished_at": "2026-10-20T16:59:52Z",
+  "skipped_not_due": 16,
+  "id": "28a8ba4441",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-20T16:59:52Z",
+  "sources": {
+   "greenhouse-anthropic": {
+    "status": "ok",
+    "fetched": 669,
+    "new": 2,
+    "updated": 1,
+    "unchanged": 328,
+    "duplicates": 0,
+    "filtered": 338,
+    "expired": 0,
+    "ms": 10114
+   },
+   "greenhouse-databricks": {
+    "status": "ok",
+    "fetched": 902,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 412,
+    "duplicates": 0,
+    "filtered": 490,
+    "expired": 1,
+    "ms": 14425
+   },
+   "greenhouse-scaleai": {
+    "status": "ok",
+    "fetched": 182,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 94,
+    "duplicates": 0,
+    "filtered": 86,
+    "expired": 2,
+    "ms": 16985
+   },
+   "greenhouse-stripe": {
+    "status": "ok",
+    "fetched": 730,
+    "new": 6,
+    "updated": 0,
+    "unchanged": 195,
+    "duplicates": 0,
+    "filtered": 529,
+    "expired": 1,
+    "ms": 17029
+   },
+   "greenhouse-gitlab": {
+    "status": "ok",
+    "fetched": 231,
+    "new": 0,
+    "updated": 2,
+    "unchanged": 83,
+    "duplicates": 0,
+    "filtered": 146,
+    "expired": 0,
+    "ms": 8541
+   },
+   "greenhouse-cloudflare": {
+    "status": "ok",
+    "fetched": 436,
+    "new": 1,
+    "updated": 1,
+    "unchanged": 209,
+    "duplicates": 0,
+    "filtered": 225,
+    "expired": 2,
+    "ms": 8488
+   },
+   "greenhouse-figma": {
+    "status": "ok",
+    "fetched": 142,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 48,
+    "duplicates": 0,
+    "filtered": 94,
+    "expired": 0,
+    "ms": 9332
+   },
+   "ashby-openai": {
+    "status": "ok",
+    "fetched": 804,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 452,
+    "duplicates": 0,
+    "filtered": 351,
+    "expired": 2,
+    "ms": 1418
+   },
+   "ashby-cohere": {
+    "status": "ok",
+    "fetched": 116,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 58,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 720
+   },
+   "ashby-perplexity": {
+    "status": "ok",
+    "fetched": 133,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 62,
+    "duplicates": 0,
+    "filtered": 71,
+    "expired": 0,
+    "ms": 1552
+   },
+   "ashby-notion": {
+    "status": "ok",
+    "fetched": 135,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 32,
+    "duplicates": 0,
+    "filtered": 103,
+    "expired": 0,
+    "ms": 1982
+   },
+   "ashby-langchain": {
+    "status": "ok",
+    "fetched": 104,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 46,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 1994
+   },
+   "ashby-modal": {
+    "status": "ok",
+    "fetched": 43,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "filtered": 29,
+    "expired": 0,
+    "ms": 1971
+   },
+   "lever-palantir": {
+    "status": "ok",
+    "fetched": 309,
+    "new": 0,
+    "updated": 1,
+    "unchanged": 199,
+    "duplicates": 0,
+    "filtered": 109,
+    "expired": 0,
+    "ms": 1727
+   },
+   "lever-spotify": {
+    "status": "ok",
+    "fetched": 81,
+    "new": 1,
+    "updated": 1,
+    "unchanged": 35,
+    "duplicates": 0,
+    "filtered": 44,
+    "expired": 2,
+    "ms": 1721
+   },
+   "arbeitnow": {
+    "status": "ok",
+    "fetched": 300,
+    "new": 115,
+    "updated": 3,
+    "unchanged": 2,
+    "duplicates": 0,
+    "filtered": 180,
+    "expired": 74,
+    "ms": 1558
+   }
+  },
+  "totals": {
+   "new": 128,
+   "updated": 9,
+   "unchanged": 2269,
+   "duplicates": 0,
+   "filtered": 2911,
+   "expired": 84,
+   "failed_sources": 0,
+   "active": 2406
+  },
+  "finished_at": "2026-10-20T17:00:36Z",
+  "skipped_not_due": 0,
+  "id": "47bab0fa41",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-20T21:35:03Z",
+  "sources": {
+   "simonw": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1147,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 11,
+    "updated": 2,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2839,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 12,
+   "updated": 2,
+   "unchanged": 14,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 14
+  },
+  "finished_at": "2026-10-20T21:35:06Z",
+  "skipped_not_due": 31,
+  "id": "ba7a8dbb7b",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-20T21:35:07Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2406
+  },
+  "finished_at": "2026-10-20T21:35:07Z",
+  "skipped_not_due": 16,
+  "id": "665581d63d",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-21T04:41:36Z",
+  "sources": {
+   "simonw": {
+    "status": "ok",
+    "new": 1,
+    "updated": 1,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1172,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 3,
+    "updated": 9,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3695,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 4,
+   "updated": 10,
+   "unchanged": 13,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 14
+  },
+  "finished_at": "2026-10-21T04:41:39Z",
+  "skipped_not_due": 31,
+  "id": "c61a65e8ee",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-21T04:41:40Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2406
+  },
+  "finished_at": "2026-10-21T04:41:40Z",
+  "skipped_not_due": 16,
+  "id": "ccc8f2ffff",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-21T11:43:46Z",
+  "sources": {
+   "simonw": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1124,
+    "page_errors": 0
+   },
+   "latent": {
+    "status": "ok",
+    "new": 3,
+    "updated": 0,
+    "unchanged": 12,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1753,
+    "page_errors": 0
+   },
+   "hfblog": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2291,
+    "page_errors": 0
+   },
+   "hfpapers": {
+    "status": "ok",
+    "new": 20,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3156,
+    "page_errors": 0
+   },
+   "openai": {
+    "status": "ok",
+    "new": 3,
+    "updated": 0,
+    "unchanged": 12,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1470,
+    "page_errors": 0
+   },
+   "anthropic-news": {
+    "status": "ok",
+    "new": 4,
+    "updated": 0,
+    "unchanged": 4,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 5148,
+    "page_errors": 0
+   },
+   "ghblog": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 10,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1319,
+    "page_errors": 0
+   },
+   "ghchangelog": {
+    "status": "ok",
+    "new": 4,
+    "updated": 1,
+    "unchanged": 5,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1776,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 3,
+    "updated": 9,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2874,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 38,
+   "updated": 10,
+   "unchanged": 57,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 48
+  },
+  "finished_at": "2026-10-21T11:43:51Z",
+  "skipped_not_due": 24,
+  "id": "d1c1037abc",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-21T11:43:52Z",
+  "sources": {
+   "greenhouse-anthropic": {
+    "status": "ok",
+    "fetched": 676,
+    "new": 5,
+    "updated": 2,
+    "unchanged": 328,
+    "duplicates": 0,
+    "filtered": 341,
+    "expired": 1,
+    "ms": 7967
+   },
+   "greenhouse-databricks": {
+    "status": "ok",
+    "fetched": 899,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 410,
+    "duplicates": 0,
+    "filtered": 489,
+    "expired": 2,
+    "ms": 8953
+   },
+   "greenhouse-scaleai": {
+    "status": "ok",
+    "fetched": 176,
+    "new": 1,
+    "updated": 2,
+    "unchanged": 91,
+    "duplicates": 0,
+    "filtered": 82,
+    "expired": 3,
+    "ms": 9307
+   },
+   "greenhouse-stripe": {
+    "status": "ok",
+    "fetched": 730,
+    "new": 2,
+    "updated": 3,
+    "unchanged": 196,
+    "duplicates": 0,
+    "filtered": 529,
+    "expired": 2,
+    "ms": 10636
+   },
+   "greenhouse-gitlab": {
+    "status": "ok",
+    "fetched": 232,
+    "new": 0,
+    "updated": 1,
+    "unchanged": 83,
+    "duplicates": 0,
+    "filtered": 148,
+    "expired": 1,
+    "ms": 11412
+   },
+   "greenhouse-cloudflare": {
+    "status": "ok",
+    "fetched": 440,
+    "new": 2,
+    "updated": 1,
+    "unchanged": 210,
+    "duplicates": 0,
+    "filtered": 227,
+    "expired": 0,
+    "ms": 6753
+   },
+   "greenhouse-figma": {
+    "status": "ok",
+    "fetched": 142,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 46,
+    "duplicates": 0,
+    "filtered": 96,
+    "expired": 2,
+    "ms": 5505
+   },
+   "ashby-openai": {
+    "status": "ok",
+    "fetched": 808,
+    "new": 3,
+    "updated": 2,
+    "unchanged": 451,
+    "duplicates": 0,
+    "filtered": 352,
+    "expired": 0,
+    "ms": 1481
+   },
+   "ashby-cohere": {
+    "status": "ok",
+    "fetched": 115,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 58,
+    "duplicates": 0,
+    "filtered": 57,
+    "expired": 0,
+    "ms": 1162
+   },
+   "ashby-perplexity": {
+    "status": "ok",
+    "fetched": 134,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 62,
+    "duplicates": 0,
+    "filtered": 71,
+    "expired": 0,
+    "ms": 1799
+   },
+   "ashby-notion": {
+    "status": "ok",
+    "fetched": 135,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 32,
+    "duplicates": 0,
+    "filtered": 103,
+    "expired": 0,
+    "ms": 2676
+   },
+   "ashby-langchain": {
+    "status": "ok",
+    "fetched": 104,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 46,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 2981
+   },
+   "ashby-modal": {
+    "status": "ok",
+    "fetched": 43,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "filtered": 29,
+    "expired": 0,
+    "ms": 3492
+   },
+   "lever-palantir": {
+    "status": "ok",
+    "fetched": 306,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 197,
+    "duplicates": 0,
+    "filtered": 109,
+    "expired": 3,
+    "ms": 3244
+   },
+   "lever-spotify": {
+    "status": "ok",
+    "fetched": 78,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 37,
+    "duplicates": 0,
+    "filtered": 40,
+    "expired": 0,
+    "ms": 3258
+   }
+  },
+  "totals": {
+   "new": 15,
+   "updated": 11,
+   "unchanged": 2261,
+   "duplicates": 0,
+   "filtered": 2731,
+   "expired": 14,
+   "failed_sources": 0,
+   "active": 2407
+  },
+  "finished_at": "2026-10-21T11:44:34Z",
+  "skipped_not_due": 1,
+  "id": "61a9eca9cd",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-21T17:08:41Z",
+  "sources": {
+   "raschka": {
+    "status": "ok",
+    "new": 13,
+    "updated": 0,
+    "unchanged": 2,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1906,
+    "page_errors": 0
+   },
+   "interconnects": {
+    "status": "ok",
+    "new": 5,
+    "updated": 0,
+    "unchanged": 10,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1247,
+    "page_errors": 0
+   },
+   "arxiv-cl": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 12,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1423,
+    "page_errors": 0
+   },
+   "deepmind": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1459,
+    "page_errors": 0
+   },
+   "googleresearch": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1488,
+    "page_errors": 0
+   },
+   "anthropic-eng": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1237,
+    "page_errors": 0
+   },
+   "lilian": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1107,
+    "page_errors": 0
+   },
+   "eugene": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1343,
+    "page_errors": 0
+   },
+   "hamel": {
+    "status": "ok",
+    "new": 8,
+    "updated": 5,
+    "unchanged": 2,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1541,
+    "page_errors": 0
+   },
+   "chip": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1496,
+    "page_errors": 0
+   },
+   "pragmatic": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 5,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1257,
+    "page_errors": 0
+   },
+   "fowler": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1458,
+    "page_errors": 0
+   },
+   "jvns": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1345,
+    "page_errors": 0
+   },
+   "realpython": {
+    "status": "ok",
+    "new": 4,
+    "updated": 1,
+    "unchanged": 10,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1308,
+    "page_errors": 0
+   },
+   "newport": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1155,
+    "page_errors": 0
+   },
+   "fs": {
+    "status": "ok",
+    "new": 11,
+    "updated": 0,
+    "unchanged": 4,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1346,
+    "page_errors": 0
+   },
+   "nesslabs": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1305,
+    "page_errors": 0
+   },
+   "scotthyoung": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1433,
+    "page_errors": 0
+   },
+   "stratechery": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 9,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1376,
+    "page_errors": 0
+   },
+   "lenny": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 15,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1348,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 71,
+   "updated": 6,
+   "unchanged": 110,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 77
+  },
+  "finished_at": "2026-10-21T17:08:46Z",
+  "skipped_not_due": 13,
+  "id": "fd396183ea",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-21T17:08:47Z",
+  "sources": {
+   "arbeitnow": {
+    "status": "ok",
+    "fetched": 300,
+    "new": 78,
+    "updated": 4,
+    "unchanged": 3,
+    "duplicates": 0,
+    "filtered": 215,
+    "expired": 113,
+    "ms": 1363
+   }
+  },
+  "totals": {
+   "new": 78,
+   "updated": 4,
+   "unchanged": 3,
+   "duplicates": 0,
+   "filtered": 215,
+   "expired": 113,
+   "failed_sources": 0,
+   "active": 2372
+  },
+  "finished_at": "2026-10-21T17:08:49Z",
+  "skipped_not_due": 15,
+  "id": "e4ae7950b8",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-21T21:39:22Z",
+  "sources": {
+   "simonw": {
+    "status": "ok",
+    "new": 3,
+    "updated": 0,
+    "unchanged": 12,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1199,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "failed",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 4752,
+    "page_errors": 0,
+    "error": "HTTP 502"
+   }
+  },
+  "totals": {
+   "new": 3,
+   "updated": 0,
+   "unchanged": 12,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 1,
+   "enriched_ai": 0,
+   "enriched_extractive": 3
+  },
+  "finished_at": "2026-10-21T21:39:26Z",
+  "skipped_not_due": 31,
+  "id": "d97dfbab0c",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-21T21:39:27Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2372
+  },
+  "finished_at": "2026-10-21T21:39:27Z",
+  "skipped_not_due": 16,
+  "id": "aa9928a574",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-22T04:38:51Z",
+  "sources": {
+   "simonw": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1238,
+    "page_errors": 0
+   },
+   "latent": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1581,
+    "page_errors": 0
+   },
+   "hfblog": {
+    "status": "ok",
+    "new": 4,
+    "updated": 0,
+    "unchanged": 11,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2237,
+    "page_errors": 0
+   },
+   "hfpapers": {
+    "status": "ok",
+    "new": 20,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3160,
+    "page_errors": 0
+   },
+   "openai": {
+    "status": "ok",
+    "new": 9,
+    "updated": 0,
+    "unchanged": 6,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1340,
+    "page_errors": 0
+   },
+   "anthropic-news": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 7,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2241,
+    "page_errors": 0
+   },
+   "ghblog": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 9,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3317,
+    "page_errors": 0
+   },
+   "ghchangelog": {
+    "status": "ok",
+    "new": 1,
+    "updated": 2,
+    "unchanged": 7,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2133,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 11,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 1,
+    "invalid": 0,
+    "ms": 5166,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 48,
+   "updated": 2,
+   "unchanged": 54,
+   "duplicates": 1,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 50
+  },
+  "finished_at": "2026-10-22T04:38:58Z",
+  "skipped_not_due": 24,
+  "id": "5e16b4370c",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-22T04:38:58Z",
+  "sources": {
+   "greenhouse-anthropic": {
+    "status": "ok",
+    "fetched": 678,
+    "new": 4,
+    "updated": 2,
+    "unchanged": 331,
+    "duplicates": 0,
+    "filtered": 341,
+    "expired": 2,
+    "ms": 13550
+   },
+   "greenhouse-databricks": {
+    "status": "ok",
+    "fetched": 897,
+    "new": 0,
+    "updated": 2,
+    "unchanged": 404,
+    "duplicates": 0,
+    "filtered": 491,
+    "expired": 4,
+    "ms": 13043
+   },
+   "greenhouse-scaleai": {
+    "status": "ok",
+    "fetched": 174,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 93,
+    "duplicates": 0,
+    "filtered": 81,
+    "expired": 1,
+    "ms": 14136
+   },
+   "greenhouse-stripe": {
+    "status": "ok",
+    "fetched": 728,
+    "new": 1,
+    "updated": 1,
+    "unchanged": 198,
+    "duplicates": 0,
+    "filtered": 528,
+    "expired": 2,
+    "ms": 7495
+   },
+   "greenhouse-gitlab": {
+    "status": "ok",
+    "fetched": 232,
+    "new": 0,
+    "updated": 2,
+    "unchanged": 78,
+    "duplicates": 0,
+    "filtered": 152,
+    "expired": 4,
+    "ms": 6350
+   },
+   "greenhouse-cloudflare": {
+    "status": "ok",
+    "fetched": 444,
+    "new": 1,
+    "updated": 3,
+    "unchanged": 210,
+    "duplicates": 0,
+    "filtered": 230,
+    "expired": 0,
+    "ms": 8612
+   },
+   "greenhouse-figma": {
+    "status": "ok",
+    "fetched": 139,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 45,
+    "duplicates": 0,
+    "filtered": 93,
+    "expired": 1,
+    "ms": 8570
+   },
+   "ashby-openai": {
+    "status": "ok",
+    "fetched": 814,
+    "new": 11,
+    "updated": 1,
+    "unchanged": 454,
+    "duplicates": 0,
+    "filtered": 348,
+    "expired": 1,
+    "ms": 1378
+   },
+   "ashby-cohere": {
+    "status": "ok",
+    "fetched": 115,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 58,
+    "duplicates": 0,
+    "filtered": 56,
+    "expired": 0,
+    "ms": 1012
+   },
+   "ashby-perplexity": {
+    "status": "ok",
+    "fetched": 127,
+    "new": 0,
+    "updated": 2,
+    "unchanged": 58,
+    "duplicates": 0,
+    "filtered": 67,
+    "expired": 3,
+    "ms": 1774
+   },
+   "ashby-notion": {
+    "status": "ok",
+    "fetched": 137,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 32,
+    "duplicates": 0,
+    "filtered": 103,
+    "expired": 0,
+    "ms": 2001
+   },
+   "ashby-langchain": {
+    "status": "ok",
+    "fetched": 104,
+    "new": 0,
+    "updated": 1,
+    "unchanged": 45,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 1980
+   },
+   "ashby-modal": {
+    "status": "ok",
+    "fetched": 43,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "filtered": 29,
+    "expired": 0,
+    "ms": 1972
+   },
+   "lever-palantir": {
+    "status": "ok",
+    "fetched": 304,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 196,
+    "duplicates": 0,
+    "filtered": 108,
+    "expired": 1,
+    "ms": 1657
+   },
+   "lever-spotify": {
+    "status": "ok",
+    "fetched": 80,
+    "new": 1,
+    "updated": 1,
+    "unchanged": 37,
+    "duplicates": 0,
+    "filtered": 41,
+    "expired": 0,
+    "ms": 2047
+   }
+  },
+  "totals": {
+   "new": 22,
+   "updated": 15,
+   "unchanged": 2253,
+   "duplicates": 0,
+   "filtered": 2726,
+   "expired": 19,
+   "failed_sources": 0,
+   "active": 2375
+  },
+  "finished_at": "2026-10-22T04:39:33Z",
+  "skipped_not_due": 1,
+  "id": "806b936da8",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-22T11:46:47Z",
+  "sources": {
+   "simonw": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1056,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 4,
+    "updated": 8,
+    "unchanged": 0,
+    "duplicates": 1,
+    "invalid": 0,
+    "ms": 1286,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 4,
+   "updated": 8,
+   "unchanged": 0,
+   "duplicates": 1,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 12
+  },
+  "finished_at": "2026-10-22T11:46:48Z",
+  "skipped_not_due": 31,
+  "id": "f45a4e2666",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-22T11:46:49Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2375
+  },
+  "finished_at": "2026-10-22T11:46:49Z",
+  "skipped_not_due": 16,
+  "id": "486db22abd",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-22T17:07:31Z",
+  "sources": {
+   "latent": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1748,
+    "page_errors": 0
+   },
+   "importai": {
+    "status": "failed",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1062,
+    "page_errors": 0,
+    "error": "HTTP 403"
+   },
+   "hfblog": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2276,
+    "page_errors": 0
+   },
+   "hfpapers": {
+    "status": "ok",
+    "new": 19,
+    "updated": 0,
+    "unchanged": 1,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3174,
+    "page_errors": 0
+   },
+   "openai": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1406,
+    "page_errors": 0
+   },
+   "anthropic-news": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 8,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1346,
+    "page_errors": 0
+   },
+   "karpathy": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1085,
+    "page_errors": 0
+   },
+   "ghblog": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 10,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2283,
+    "page_errors": 0
+   },
+   "ghchangelog": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3049,
+    "page_errors": 0
+   },
+   "jamesclear": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1167,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 25,
+   "updated": 0,
+   "unchanged": 58,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 1,
+   "enriched_ai": 0,
+   "enriched_extractive": 25
+  },
+  "finished_at": "2026-10-22T17:07:36Z",
+  "skipped_not_due": 23,
+  "id": "f3216c7254",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-22T17:07:37Z",
+  "sources": {
+   "greenhouse-anthropic": {
+    "status": "ok",
+    "fetched": 677,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 337,
+    "duplicates": 0,
+    "filtered": 338,
+    "expired": 0,
+    "ms": 6854
+   },
+   "greenhouse-databricks": {
+    "status": "ok",
+    "fetched": 901,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 405,
+    "duplicates": 0,
+    "filtered": 495,
+    "expired": 1,
+    "ms": 9816
+   },
+   "greenhouse-scaleai": {
+    "status": "ok",
+    "fetched": 174,
+    "new": 0,
+    "updated": 2,
+    "unchanged": 91,
+    "duplicates": 0,
+    "filtered": 81,
+    "expired": 0,
+    "ms": 7361
+   },
+   "greenhouse-stripe": {
+    "status": "ok",
+    "fetched": 724,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 198,
+    "duplicates": 0,
+    "filtered": 524,
+    "expired": 2,
+    "ms": 10553
+   },
+   "greenhouse-gitlab": {
+    "status": "ok",
+    "fetched": 232,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 78,
+    "duplicates": 0,
+    "filtered": 154,
+    "expired": 2,
+    "ms": 8459
+   },
+   "greenhouse-cloudflare": {
+    "status": "ok",
+    "fetched": 441,
+    "new": 1,
+    "updated": 2,
+    "unchanged": 212,
+    "duplicates": 0,
+    "filtered": 226,
+    "expired": 0,
+    "ms": 13310
+   },
+   "greenhouse-figma": {
+    "status": "ok",
+    "fetched": 140,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 46,
+    "duplicates": 0,
+    "filtered": 94,
+    "expired": 0,
+    "ms": 6441
+   },
+   "ashby-openai": {
+    "status": "ok",
+    "fetched": 808,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 462,
+    "duplicates": 0,
+    "filtered": 345,
+    "expired": 4,
+    "ms": 1326
+   },
+   "ashby-cohere": {
+    "status": "ok",
+    "fetched": 113,
+    "new": 1,
+    "updated": 1,
+    "unchanged": 56,
+    "duplicates": 0,
+    "filtered": 55,
+    "expired": 2,
+    "ms": 997
+   },
+   "ashby-perplexity": {
+    "status": "ok",
+    "fetched": 127,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 60,
+    "duplicates": 0,
+    "filtered": 67,
+    "expired": 0,
+    "ms": 1779
+   },
+   "ashby-notion": {
+    "status": "ok",
+    "fetched": 137,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 34,
+    "duplicates": 0,
+    "filtered": 103,
+    "expired": 0,
+    "ms": 2065
+   },
+   "ashby-langchain": {
+    "status": "ok",
+    "fetched": 104,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 46,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 2627
+   },
+   "ashby-modal": {
+    "status": "ok",
+    "fetched": 43,
+    "new": 0,
+    "updated": 2,
+    "unchanged": 12,
+    "duplicates": 0,
+    "filtered": 29,
+    "expired": 0,
+    "ms": 3020
+   },
+   "lever-palantir": {
+    "status": "ok",
+    "fetched": 304,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 196,
+    "duplicates": 0,
+    "filtered": 108,
+    "expired": 0,
+    "ms": 1813
+   },
+   "lever-spotify": {
+    "status": "ok",
+    "fetched": 80,
+    "new": 0,
+    "updated": 1,
+    "unchanged": 37,
+    "duplicates": 0,
+    "filtered": 42,
+    "expired": 1,
+    "ms": 2468
+   }
+  },
+  "totals": {
+   "new": 8,
+   "updated": 8,
+   "unchanged": 2270,
+   "duplicates": 0,
+   "filtered": 2719,
+   "expired": 12,
+   "failed_sources": 0,
+   "active": 2371
+  },
+  "finished_at": "2026-10-22T17:08:10Z",
+  "skipped_not_due": 1,
+  "id": "c6547b7331",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-22T21:32:46Z",
+  "sources": {
+   "simonw": {
+    "status": "ok",
+    "new": 3,
+    "updated": 1,
+    "unchanged": 11,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1939,
+    "page_errors": 0
+   },
+   "raschka": {
+    "status": "ok",
+    "new": 13,
+    "updated": 0,
+    "unchanged": 2,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2073,
+    "page_errors": 0
+   },
+   "interconnects": {
+    "status": "ok",
+    "new": 4,
+    "updated": 0,
+    "unchanged": 11,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1911,
+    "page_errors": 0
+   },
+   "arxiv-cl": {
+    "status": "ok",
+    "new": 11,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 1,
+    "invalid": 0,
+    "ms": 2054,
+    "page_errors": 0
+   },
+   "deepmind": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1908,
+    "page_errors": 0
+   },
+   "googleresearch": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 15,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1925,
+    "page_errors": 0
+   },
+   "anthropic-eng": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1150,
+    "page_errors": 0
+   },
+   "pragmatic": {
+    "status": "ok",
+    "new": 10,
+    "updated": 1,
+    "unchanged": 4,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1362,
+    "page_errors": 0
+   },
+   "realpython": {
+    "status": "ok",
+    "new": 12,
+    "updated": 1,
+    "unchanged": 2,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1268,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 7,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1863,
+    "page_errors": 0
+   },
+   "stratechery": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 8,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1521,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 64,
+   "updated": 3,
+   "unchanged": 66,
+   "duplicates": 1,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 67
+  },
+  "finished_at": "2026-10-22T21:32:50Z",
+  "skipped_not_due": 22,
+  "id": "bb090b2313",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-22T21:32:50Z",
+  "sources": {
+   "arbeitnow": {
+    "status": "ok",
+    "fetched": 300,
+    "new": 100,
+    "updated": 2,
+    "unchanged": 2,
+    "duplicates": 0,
+    "filtered": 196,
+    "expired": 81,
+    "ms": 1377
+   }
+  },
+  "totals": {
+   "new": 100,
+   "updated": 2,
+   "unchanged": 2,
+   "duplicates": 0,
+   "filtered": 196,
+   "expired": 81,
+   "failed_sources": 0,
+   "active": 2390
+  },
+  "finished_at": "2026-10-22T21:32:53Z",
+  "skipped_not_due": 15,
+  "id": "3eb42414b3",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-23T04:44:45Z",
+  "sources": {
+   "simonw": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1104,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 4,
+    "updated": 6,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2716,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 4,
+   "updated": 6,
+   "unchanged": 0,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 10
+  },
+  "finished_at": "2026-10-23T04:44:47Z",
+  "skipped_not_due": 31,
+  "id": "c1dab2da2c",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-23T04:44:48Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2390
+  },
+  "finished_at": "2026-10-23T04:44:48Z",
+  "skipped_not_due": 16,
+  "id": "dc9b2a452f",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-23T11:33:49Z",
+  "sources": {
+   "simonw": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1137,
+    "page_errors": 0
+   },
+   "latent": {
+    "status": "ok",
+    "new": 5,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 10,
+    "invalid": 0,
+    "ms": 3752,
+    "page_errors": 0
+   },
+   "hfblog": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3657,
+    "page_errors": 0
+   },
+   "hfpapers": {
+    "status": "ok",
+    "new": 20,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2200,
+    "page_errors": 0
+   },
+   "openai": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1656,
+    "page_errors": 0
+   },
+   "anthropic-news": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 6,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3476,
+    "page_errors": 0
+   },
+   "ghblog": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 9,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1600,
+    "page_errors": 0
+   },
+   "ghchangelog": {
+    "status": "ok",
+    "new": 7,
+    "updated": 0,
+    "unchanged": 3,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2088,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 4,
+    "updated": 8,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1528,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 42,
+   "updated": 8,
+   "unchanged": 45,
+   "duplicates": 10,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 50
+  },
+  "finished_at": "2026-10-23T11:33:53Z",
+  "skipped_not_due": 24,
+  "id": "064fc05b6b",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-23T11:33:53Z",
+  "sources": {
+   "greenhouse-anthropic": {
+    "status": "ok",
+    "fetched": 683,
+    "new": 5,
+    "updated": 0,
+    "unchanged": 337,
+    "duplicates": 0,
+    "filtered": 341,
+    "expired": 2,
+    "ms": 8333
+   },
+   "greenhouse-databricks": {
+    "status": "ok",
+    "fetched": 898,
+    "new": 3,
+    "updated": 0,
+    "unchanged": 402,
+    "duplicates": 0,
+    "filtered": 493,
+    "expired": 4,
+    "ms": 11279
+   },
+   "greenhouse-scaleai": {
+    "status": "ok",
+    "fetched": 172,
+    "new": 1,
+    "updated": 1,
+    "unchanged": 91,
+    "duplicates": 0,
+    "filtered": 79,
+    "expired": 2,
+    "ms": 8526
+   },
+   "greenhouse-stripe": {
+    "status": "ok",
+    "fetched": 727,
+    "new": 3,
+    "updated": 4,
+    "unchanged": 197,
+    "duplicates": 0,
+    "filtered": 523,
+    "expired": 1,
+    "ms": 11899
+   },
+   "greenhouse-gitlab": {
+    "status": "ok",
+    "fetched": 231,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 77,
+    "duplicates": 0,
+    "filtered": 154,
+    "expired": 1,
+    "ms": 9662
+   },
+   "greenhouse-cloudflare": {
+    "status": "ok",
+    "fetched": 448,
+    "new": 3,
+    "updated": 6,
+    "unchanged": 209,
+    "duplicates": 0,
+    "filtered": 230,
+    "expired": 0,
+    "ms": 7350
+   },
+   "greenhouse-figma": {
+    "status": "ok",
+    "fetched": 141,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 46,
+    "duplicates": 0,
+    "filtered": 94,
+    "expired": 0,
+    "ms": 5187
+   },
+   "ashby-openai": {
+    "status": "ok",
+    "fetched": 801,
+    "new": 3,
+    "updated": 6,
+    "unchanged": 451,
+    "duplicates": 0,
+    "filtered": 341,
+    "expired": 6,
+    "ms": 1479
+   },
+   "ashby-cohere": {
+    "status": "ok",
+    "fetched": 114,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 58,
+    "duplicates": 0,
+    "filtered": 56,
+    "expired": 0,
+    "ms": 2026
+   },
+   "ashby-perplexity": {
+    "status": "ok",
+    "fetched": 127,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 59,
+    "duplicates": 0,
+    "filtered": 66,
+    "expired": 1,
+    "ms": 1886
+   },
+   "ashby-notion": {
+    "status": "ok",
+    "fetched": 139,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 34,
+    "duplicates": 0,
+    "filtered": 105,
+    "expired": 0,
+    "ms": 2754
+   },
+   "ashby-langchain": {
+    "status": "ok",
+    "fetched": 104,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 46,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 2987
+   },
+   "ashby-modal": {
+    "status": "ok",
+    "fetched": 43,
+    "new": 0,
+    "updated": 13,
+    "unchanged": 1,
+    "duplicates": 0,
+    "filtered": 29,
+    "expired": 0,
+    "ms": 3220
+   },
+   "lever-palantir": {
+    "status": "ok",
+    "fetched": 307,
+    "new": 3,
+    "updated": 2,
+    "unchanged": 191,
+    "duplicates": 0,
+    "filtered": 111,
+    "expired": 5,
+    "ms": 2002
+   },
+   "lever-spotify": {
+    "status": "ok",
+    "fetched": 80,
+    "new": 3,
+    "updated": 0,
+    "unchanged": 38,
+    "duplicates": 0,
+    "filtered": 39,
+    "expired": 0,
+    "ms": 3941
+   }
+  },
+  "totals": {
+   "new": 27,
+   "updated": 32,
+   "unchanged": 2237,
+   "duplicates": 0,
+   "filtered": 2719,
+   "expired": 22,
+   "failed_sources": 0,
+   "active": 2400
+  },
+  "finished_at": "2026-10-23T11:34:47Z",
+  "skipped_not_due": 1,
+  "id": "f394cc6f91",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-23T17:03:24Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 0
+  },
+  "finished_at": "2026-10-23T17:03:24Z",
+  "skipped_not_due": 33,
+  "id": "c224388f29",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-23T17:03:24Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2400
+  },
+  "finished_at": "2026-10-23T17:03:24Z",
+  "skipped_not_due": 16,
+  "id": "0b86f90a1a",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-23T21:22:18Z",
+  "sources": {
+   "simonw": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1313,
+    "page_errors": 0
+   },
+   "lilian": {
+    "status": "ok",
+    "new": 15,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1322,
+    "page_errors": 0
+   },
+   "eugene": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1173,
+    "page_errors": 0
+   },
+   "hamel": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1294,
+    "page_errors": 0
+   },
+   "chip": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1170,
+    "page_errors": 0
+   },
+   "fowler": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 15,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1331,
+    "page_errors": 0
+   },
+   "jvns": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1127,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 4,
+    "updated": 1,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1113,
+    "page_errors": 0
+   },
+   "newport": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1104,
+    "page_errors": 0
+   },
+   "fs": {
+    "status": "ok",
+    "new": 11,
+    "updated": 0,
+    "unchanged": 4,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1354,
+    "page_errors": 0
+   },
+   "nesslabs": {
+    "status": "ok",
+    "new": 10,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1651,
+    "page_errors": 0
+   },
+   "scotthyoung": {
+    "status": "ok",
+    "new": 5,
+    "updated": 0,
+    "unchanged": 5,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1638,
+    "page_errors": 0
+   },
+   "lenny": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1217,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 47,
+   "updated": 1,
+   "unchanged": 52,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 48
+  },
+  "finished_at": "2026-10-23T21:22:22Z",
+  "skipped_not_due": 20,
+  "id": "4008db9791",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-23T21:22:22Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2400
+  },
+  "finished_at": "2026-10-23T21:22:22Z",
+  "skipped_not_due": 16,
+  "id": "bd32dcdf1f",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-24T04:31:54Z",
+  "sources": {
+   "simonw": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1189,
+    "page_errors": 0
+   },
+   "latent": {
+    "status": "ok",
+    "new": 5,
+    "updated": 1,
+    "unchanged": 4,
+    "duplicates": 5,
+    "invalid": 0,
+    "ms": 3488,
+    "page_errors": 0
+   },
+   "raschka": {
+    "status": "ok",
+    "new": 13,
+    "updated": 0,
+    "unchanged": 2,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2180,
+    "page_errors": 0
+   },
+   "interconnects": {
+    "status": "ok",
+    "new": 5,
+    "updated": 0,
+    "unchanged": 10,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1399,
+    "page_errors": 0
+   },
+   "hfblog": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3706,
+    "page_errors": 0
+   },
+   "hfpapers": {
+    "status": "ok",
+    "new": 14,
+    "updated": 0,
+    "unchanged": 6,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2186,
+    "page_errors": 0
+   },
+   "arxiv-cl": {
+    "status": "ok",
+    "new": 12,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1742,
+    "page_errors": 0
+   },
+   "openai": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2086,
+    "page_errors": 0
+   },
+   "deepmind": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 13,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1575,
+    "page_errors": 0
+   },
+   "googleresearch": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1612,
+    "page_errors": 0
+   },
+   "anthropic-news": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 8,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1154,
+    "page_errors": 0
+   },
+   "anthropic-eng": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1651,
+    "page_errors": 0
+   },
+   "pragmatic": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1158,
+    "page_errors": 0
+   },
+   "ghblog": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 10,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2438,
+    "page_errors": 0
+   },
+   "ghchangelog": {
+    "status": "ok",
+    "new": 5,
+    "updated": 0,
+    "unchanged": 5,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3118,
+    "page_errors": 0
+   },
+   "realpython": {
+    "status": "ok",
+    "new": 14,
+    "updated": 0,
+    "unchanged": 1,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1267,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 3,
+    "updated": 4,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1192,
+    "page_errors": 0
+   },
+   "stratechery": {
+    "status": "ok",
+    "new": 2,
+    "updated": 0,
+    "unchanged": 8,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1507,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 81,
+   "updated": 5,
+   "unchanged": 121,
+   "duplicates": 5,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 86
+  },
+  "finished_at": "2026-10-24T04:32:01Z",
+  "skipped_not_due": 15,
+  "id": "5746689f79",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-24T04:32:02Z",
+  "sources": {
+   "greenhouse-anthropic": {
+    "status": "ok",
+    "fetched": 679,
+    "new": 4,
+    "updated": 2,
+    "unchanged": 339,
+    "duplicates": 0,
+    "filtered": 334,
+    "expired": 1,
+    "ms": 10191
+   },
+   "greenhouse-databricks": {
+    "status": "ok",
+    "fetched": 895,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 402,
+    "duplicates": 0,
+    "filtered": 491,
+    "expired": 3,
+    "ms": 12221
+   },
+   "greenhouse-scaleai": {
+    "status": "ok",
+    "fetched": 171,
+    "new": 0,
+    "updated": 2,
+    "unchanged": 90,
+    "duplicates": 0,
+    "filtered": 79,
+    "expired": 1,
+    "ms": 6383
+   },
+   "greenhouse-stripe": {
+    "status": "ok",
+    "fetched": 720,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 197,
+    "duplicates": 0,
+    "filtered": 521,
+    "expired": 7,
+    "ms": 7813
+   },
+   "greenhouse-gitlab": {
+    "status": "ok",
+    "fetched": 239,
+    "new": 4,
+    "updated": 0,
+    "unchanged": 77,
+    "duplicates": 0,
+    "filtered": 158,
+    "expired": 0,
+    "ms": 8533
+   },
+   "greenhouse-cloudflare": {
+    "status": "ok",
+    "fetched": 453,
+    "new": 3,
+    "updated": 6,
+    "unchanged": 211,
+    "duplicates": 0,
+    "filtered": 233,
+    "expired": 1,
+    "ms": 10976
+   },
+   "greenhouse-figma": {
+    "status": "ok",
+    "fetched": 138,
+    "new": 0,
+    "updated": 1,
+    "unchanged": 44,
+    "duplicates": 0,
+    "filtered": 93,
+    "expired": 3,
+    "ms": 5996
+   },
+   "ashby-openai": {
+    "status": "ok",
+    "fetched": 796,
+    "new": 4,
+    "updated": 2,
+    "unchanged": 451,
+    "duplicates": 0,
+    "filtered": 339,
+    "expired": 7,
+    "ms": 1533
+   },
+   "ashby-cohere": {
+    "status": "ok",
+    "fetched": 116,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 57,
+    "duplicates": 0,
+    "filtered": 59,
+    "expired": 1,
+    "ms": 1404
+   },
+   "ashby-perplexity": {
+    "status": "ok",
+    "fetched": 131,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 61,
+    "duplicates": 0,
+    "filtered": 68,
+    "expired": 0,
+    "ms": 1596
+   },
+   "ashby-notion": {
+    "status": "ok",
+    "fetched": 140,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 34,
+    "duplicates": 0,
+    "filtered": 106,
+    "expired": 0,
+    "ms": 2072
+   },
+   "ashby-langchain": {
+    "status": "ok",
+    "fetched": 104,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 46,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 2743
+   },
+   "ashby-modal": {
+    "status": "ok",
+    "fetched": 43,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "filtered": 29,
+    "expired": 0,
+    "ms": 2958
+   },
+   "lever-palantir": {
+    "status": "ok",
+    "fetched": 309,
+    "new": 1,
+    "updated": 0,
+    "unchanged": 196,
+    "duplicates": 0,
+    "filtered": 112,
+    "expired": 0,
+    "ms": 2287
+   },
+   "lever-spotify": {
+    "status": "ok",
+    "fetched": 90,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 41,
+    "duplicates": 0,
+    "filtered": 47,
+    "expired": 0,
+    "ms": 5952
+   },
+   "arbeitnow": {
+    "status": "ok",
+    "fetched": 300,
+    "new": 104,
+    "updated": 3,
+    "unchanged": 6,
+    "duplicates": 0,
+    "filtered": 187,
+    "expired": 95,
+    "ms": 1439
+   }
+  },
+  "totals": {
+   "new": 128,
+   "updated": 16,
+   "unchanged": 2266,
+   "duplicates": 0,
+   "filtered": 2914,
+   "expired": 119,
+   "failed_sources": 0,
+   "active": 2410
+  },
+  "finished_at": "2026-10-24T04:32:59Z",
+  "skipped_not_due": 0,
+  "id": "d4b12c86e1",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-24T10:54:12Z",
+  "sources": {
+   "simonw": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1082,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1672,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 0
+  },
+  "finished_at": "2026-10-24T10:54:14Z",
+  "skipped_not_due": 31,
+  "id": "6005f39018",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-24T10:54:14Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2410
+  },
+  "finished_at": "2026-10-24T10:54:14Z",
+  "skipped_not_due": 16,
+  "id": "b4da9fb6a8",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-24T15:53:44Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "invalid": 0,
+   "failed_sources": 0,
+   "enriched_ai": 0,
+   "enriched_extractive": 0
+  },
+  "finished_at": "2026-10-24T15:53:44Z",
+  "skipped_not_due": 33,
+  "id": "5bcacbceb8",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-24T15:53:44Z",
+  "sources": {},
+  "totals": {
+   "new": 0,
+   "updated": 0,
+   "unchanged": 0,
+   "duplicates": 0,
+   "filtered": 0,
+   "expired": 0,
+   "failed_sources": 0,
+   "active": 2410
+  },
+  "finished_at": "2026-10-24T15:53:44Z",
+  "skipped_not_due": 16,
+  "id": "df96ad1c2a",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "articles",
+  "started_at": "2026-10-24T20:44:55Z",
+  "sources": {
+   "simonw": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1431,
+    "page_errors": 0
+   },
+   "latent": {
+    "status": "ok",
+    "new": 1,
+    "updated": 0,
+    "unchanged": 10,
+    "duplicates": 4,
+    "invalid": 0,
+    "ms": 3023,
+    "page_errors": 0
+   },
+   "importai": {
+    "status": "failed",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1123,
+    "page_errors": 0,
+    "error": "HTTP 403"
+   },
+   "hfblog": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3120,
+    "page_errors": 0
+   },
+   "hfpapers": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 20,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2137,
+    "page_errors": 0
+   },
+   "openai": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 15,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1422,
+    "page_errors": 0
+   },
+   "anthropic-news": {
+    "status": "ok",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 8,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1177,
+    "page_errors": 0
+   },
+   "ghblog": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 3125,
+    "page_errors": 0
+   },
+   "ghchangelog": {
+    "status": "not-modified",
+    "new": 0,
+    "updated": 0,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 2086,
+    "page_errors": 0
+   },
+   "hn": {
+    "status": "ok",
+    "new": 4,
+    "updated": 3,
+    "unchanged": 0,
+    "duplicates": 0,
+    "invalid": 0,
+    "ms": 1451,
+    "page_errors": 0
+   }
+  },
+  "totals": {
+   "new": 6,
+   "updated": 3,
+   "unchanged": 67,
+   "duplicates": 4,
+   "invalid": 0,
+   "failed_sources": 1,
+   "enriched_ai": 0,
+   "enriched_extractive": 9
+  },
+  "finished_at": "2026-10-24T20:44:59Z",
+  "skipped_not_due": 23,
+  "id": "288d459fb9",
+  "trigger": "schedule"
+ },
+ {
+  "kind": "jobs",
+  "started_at": "2026-10-24T20:45:00Z",
+  "sources": {
+   "greenhouse-anthropic": {
+    "status": "ok",
+    "fetched": 681,
+    "new": 0,
+    "updated": 1,
+    "unchanged": 344,
+    "duplicates": 0,
+    "filtered": 336,
+    "expired": 0,
+    "ms": 11917
+   },
+   "greenhouse-databricks": {
+    "status": "ok",
+    "fetched": 896,
+    "new": 0,
+    "updated": 1,
+    "unchanged": 404,
+    "duplicates": 0,
+    "filtered": 491,
+    "expired": 0,
+    "ms": 9064
+   },
+   "greenhouse-scaleai": {
+    "status": "ok",
+    "fetched": 171,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 92,
+    "duplicates": 0,
+    "filtered": 79,
+    "expired": 0,
+    "ms": 9373
+   },
+   "greenhouse-stripe": {
+    "status": "ok",
+    "fetched": 719,
+    "new": 0,
+    "updated": 1,
+    "unchanged": 198,
+    "duplicates": 0,
+    "filtered": 520,
+    "expired": 0,
+    "ms": 10626
+   },
+   "greenhouse-gitlab": {
+    "status": "ok",
+    "fetched": 239,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 81,
+    "duplicates": 0,
+    "filtered": 158,
+    "expired": 0,
+    "ms": 7512
+   },
+   "greenhouse-cloudflare": {
+    "status": "ok",
+    "fetched": 454,
+    "new": 1,
+    "updated": 9,
+    "unchanged": 211,
+    "duplicates": 0,
+    "filtered": 233,
+    "expired": 0,
+    "ms": 6760
+   },
+   "greenhouse-figma": {
+    "status": "ok",
+    "fetched": 138,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 45,
+    "duplicates": 0,
+    "filtered": 93,
+    "expired": 0,
+    "ms": 5592
+   },
+   "ashby-openai": {
+    "status": "ok",
+    "fetched": 796,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 457,
+    "duplicates": 0,
+    "filtered": 339,
+    "expired": 0,
+    "ms": 1384
+   },
+   "ashby-cohere": {
+    "status": "ok",
+    "fetched": 116,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 57,
+    "duplicates": 0,
+    "filtered": 59,
+    "expired": 0,
+    "ms": 756
+   },
+   "ashby-perplexity": {
+    "status": "ok",
+    "fetched": 132,
+    "new": 2,
+    "updated": 0,
+    "unchanged": 62,
+    "duplicates": 0,
+    "filtered": 68,
+    "expired": 1,
+    "ms": 1584
+   },
+   "ashby-notion": {
+    "status": "ok",
+    "fetched": 140,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 34,
+    "duplicates": 0,
+    "filtered": 106,
+    "expired": 0,
+    "ms": 2289
+   },
+   "ashby-langchain": {
+    "status": "ok",
+    "fetched": 104,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 46,
+    "duplicates": 0,
+    "filtered": 58,
+    "expired": 0,
+    "ms": 2977
+   },
+   "ashby-modal": {
+    "status": "ok",
+    "fetched": 43,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 14,
+    "duplicates": 0,
+    "filtered": 29,
+    "expired": 0,
+    "ms": 2981
+   },
+   "lever-palantir": {
+    "status": "ok",
+    "fetched": 309,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 197,
+    "duplicates": 0,
+    "filtered": 112,
+    "expired": 0,
+    "ms": 1888
+   },
+   "lever-spotify": {
+    "status": "ok",
+    "fetched": 90,
+    "new": 0,
+    "updated": 0,
+    "unchanged": 43,
+    "duplicates": 0,
+    "filtered": 47,
+    "expired": 0,
+    "ms": 1504
+   }
+  },
+  "totals": {
+   "new": 3,
+   "updated": 12,
+   "unchanged": 2285,
+   "duplicates": 0,
+   "filtered": 2728,
+   "expired": 1,
+   "failed_sources": 0,
+   "active": 2413
+  },
+  "finished_at": "2026-10-24T20:45:34Z",
+  "skipped_not_due": 1,
+  "id": "eb1d87b202",
+  "trigger": "schedule"
+ }
+]
