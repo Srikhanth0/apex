@@ -1,0 +1,277 @@
+{
+ "simonw": {
+  "last_attempt": "2026-10-31T12:20:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-31T12:20:29Z",
+  "next_due": "2026-10-31T18:20:29Z",
+  "last_modified": "Fri, 30 Oct 2026 21:59:22 GMT"
+ },
+ "latent": {
+  "last_attempt": "2026-10-31T12:20:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-31T12:20:29Z",
+  "next_due": "2026-11-01T00:20:29Z",
+  "etag": "W/\"e7cfb-dUkEjFYi9RJLhU8U4uLTvpRkecM\"",
+  "last_modified": "Sat, 31 Oct 2026 12:20:07 GMT"
+ },
+ "raschka": {
+  "last_attempt": "2026-10-30T22:15:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T22:15:29Z",
+  "next_due": "2026-10-31T22:15:29Z",
+  "etag": "W/\"2777fb-gB4eoaVyGE3RH6kzX9nNNC0zh3U\""
+ },
+ "interconnects": {
+  "last_attempt": "2026-10-30T22:15:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T22:15:29Z",
+  "next_due": "2026-10-31T22:15:29Z",
+  "etag": "W/\"8584d-C9d3tj8k8MUj1/ugp8XStoKxEzY\""
+ },
+ "importai": {
+  "last_attempt": "2026-10-31T05:34:56Z",
+  "consecutive_failures": 7,
+  "last_error": "HTTP 403",
+  "next_due": "2026-11-02T05:34:56Z"
+ },
+ "hfblog": {
+  "last_attempt": "2026-10-31T12:20:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-31T12:20:29Z",
+  "next_due": "2026-11-01T00:20:29Z",
+  "etag": "W/\"40793-bmquv/GNSjyfNOyFDEiq6ujwyzU\""
+ },
+ "hfpapers": {
+  "last_attempt": "2026-10-31T12:20:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-31T12:20:29Z",
+  "next_due": "2026-11-01T00:20:29Z"
+ },
+ "arxiv-cl": {
+  "last_attempt": "2026-10-30T22:15:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T22:15:29Z",
+  "next_due": "2026-10-31T22:15:29Z",
+  "etag": "1e8586f039a0067528550e29ece8b015ef69f8aac6f78bb659b8f2c182121028"
+ },
+ "openai": {
+  "last_attempt": "2026-10-31T12:20:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-31T12:20:29Z",
+  "next_due": "2026-11-01T00:20:29Z"
+ },
+ "deepmind": {
+  "last_attempt": "2026-10-30T22:15:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T22:15:29Z",
+  "next_due": "2026-10-31T22:15:29Z",
+  "etag": "\"bEnedg\"",
+  "last_modified": "Thu, 22 Oct 2026 14:30:24 GMT"
+ },
+ "googleresearch": {
+  "last_attempt": "2026-10-30T22:15:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T22:15:29Z",
+  "next_due": "2026-10-31T22:15:29Z",
+  "last_modified": "Tue, 27 Oct 2026 17:35:00 GMT"
+ },
+ "anthropic-news": {
+  "last_attempt": "2026-10-31T12:20:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-31T12:20:29Z",
+  "next_due": "2026-11-01T00:20:29Z"
+ },
+ "anthropic-eng": {
+  "last_attempt": "2026-10-30T22:15:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T22:15:29Z",
+  "next_due": "2026-10-31T22:15:29Z"
+ },
+ "lilian": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "W/\"6a55d3e3-13718\"",
+  "last_modified": "Tue, 14 Jul 2026 06:14:59 GMT"
+ },
+ "eugene": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "W/\"6ad4f91b-199df\"",
+  "last_modified": "Sun, 18 Oct 2026 16:51:39 GMT"
+ },
+ "hamel": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "W/\"6adeea2f-89d42\"",
+  "last_modified": "Mon, 26 Oct 2026 05:50:39 GMT"
+ },
+ "chip": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "W/\"6a6bdc00-532d2\"",
+  "last_modified": "Thu, 30 Jul 2026 23:19:28 GMT"
+ },
+ "karpathy": {
+  "last_attempt": "2026-10-29T00:53:33Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-29T00:53:33Z",
+  "next_due": "2026-11-01T00:53:33Z",
+  "etag": "W/\"69d98cd7-d9f5c\"",
+  "last_modified": "Fri, 10 Apr 2026 23:50:47 GMT"
+ },
+ "pragmatic": {
+  "last_attempt": "2026-10-30T22:15:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T22:15:29Z",
+  "next_due": "2026-10-31T22:15:29Z",
+  "etag": "W/\"495d4-ddMdTb8XYmFbbLG4y9/xx0pv+pA\""
+ },
+ "fowler": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "\"2aa8b-65efcee2d9c40\"",
+  "last_modified": "Thu, 29 Oct 2026 16:11:21 GMT"
+ },
+ "ghblog": {
+  "last_attempt": "2026-10-31T12:20:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-31T12:20:29Z",
+  "next_due": "2026-11-01T00:20:29Z",
+  "etag": "W/\"669a08bcef252d75f755446b35e91180\"",
+  "last_modified": "Fri, 30 Oct 2026 17:52:27 GMT"
+ },
+ "ghchangelog": {
+  "last_attempt": "2026-10-31T12:20:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-31T12:20:29Z",
+  "next_due": "2026-11-01T00:20:29Z",
+  "etag": "W/\"669a08bcef252d75f755446b35e91180\"",
+  "last_modified": "Fri, 30 Oct 2026 17:52:27 GMT"
+ },
+ "jvns": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "\"7bea057597c116806f9f509cea1e1fdb-ssl-df\""
+ },
+ "realpython": {
+  "last_attempt": "2026-10-30T22:15:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T22:15:29Z",
+  "next_due": "2026-10-31T22:15:29Z",
+  "last_modified": "Fri, 30 Oct 2026 22:10:57 GMT"
+ },
+ "hn": {
+  "last_attempt": "2026-10-31T12:20:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "next_due": "2026-10-31T18:20:29Z",
+  "last_success": "2026-10-31T12:20:29Z",
+  "last_modified": "Fri, 30 Oct 2026 17:25:15 GMT"
+ },
+ "newport": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "W/\"3ec74092c6d0bd248c42743ac954c898\"",
+  "last_modified": "Mon, 19 Oct 2026 10:00:00 GMT"
+ },
+ "fs": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "W/\"8f83feabf1e82122aea19d6ee4247f5c\"",
+  "last_modified": "Thu, 29 Oct 2026 16:36:31 GMT"
+ },
+ "nesslabs": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "W/\"632c0cd887057aa080dc77f95bd36b3f\"",
+  "last_modified": "Thu, 29 Oct 2026 13:28:13 GMT"
+ },
+ "jamesclear": {
+  "last_attempt": "2026-10-29T00:53:33Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-29T00:53:33Z",
+  "next_due": "2026-11-01T00:53:33Z",
+  "etag": "W/\"e8265bad9ab8868960a61cf0d24be2fd\"",
+  "last_modified": "Mon, 05 Oct 2026 15:50:33 GMT"
+ },
+ "scotthyoung": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "W/\"b70afa704ea8c05fdc291bf2a5c1d5a1\"",
+  "last_modified": "Wed, 28 Oct 2026 20:42:05 GMT"
+ },
+ "pg": {
+  "last_attempt": "2026-10-26T20:28:05Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-26T20:28:05Z",
+  "next_due": "2026-11-02T20:28:05Z",
+  "etag": "\"928001-6553-60d2c1289b240\"",
+  "last_modified": "Sat, 23 Dec 2023 12:00:01 GMT"
+ },
+ "stratechery": {
+  "last_attempt": "2026-10-30T22:15:29Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T22:15:29Z",
+  "next_due": "2026-10-31T22:15:29Z",
+  "etag": "W/\"7bb3fa19ac92d51d9de7d39567c415f2\"",
+  "last_modified": "Fri, 30 Oct 2026 18:19:53 GMT"
+ },
+ "lenny": {
+  "last_attempt": "2026-10-30T09:57:10Z",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "last_success": "2026-10-30T09:57:10Z",
+  "next_due": "2026-11-01T09:57:10Z",
+  "etag": "W/\"44952-7HUSWXz1r/ZBfAFm/OXu6AHKYXo\""
+ }
+}
